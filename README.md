@@ -1,4 +1,4 @@
-# dji_hardware_schematics
+# dji-hardware-schematics
 Community made schematics for the DJI drones and devices.
 
 The repository stored KiCad projects with schematocs and PCBs of various parts of DJI hardware.
