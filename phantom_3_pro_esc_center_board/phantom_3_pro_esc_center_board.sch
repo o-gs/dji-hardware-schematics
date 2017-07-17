@@ -39,7 +39,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title "Phantom 3 ESC"
+Title "Phantom 3 ESC center board"
 Date ""
 Rev "0.1"
 Comp "Dji / by community"
