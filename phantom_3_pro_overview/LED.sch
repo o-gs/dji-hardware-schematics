@@ -29,17 +29,21 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:motors
+LIBS:ic_dil_generic
+LIBS:sensors
+LIBS:u-blox
+LIBS:amplifiers
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 5354 4724
 encoding utf-8
-Sheet 16 23
-Title ""
+Sheet 15 23
+Title "Overview of the Phantom 3 Pro LED board"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "This schematic does not aim to be electrically correct, it is conceptual."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -52,6 +56,8 @@ $Comp
 L LED_RGB D1
 U 1 1 596DFE26
 P 1150 1550
+AR Path="/596E1317/596DFE26" Ref="D1"  Part="1" 
+AR Path="/596E06B8/596DFE26" Ref="D1"  Part="1" 
 F 0 "D1" H 1150 1920 50  0000 C CNN
 F 1 "LED_RGB_5050" H 1150 1200 50  0000 C CNN
 F 2 "" H 1150 1500 50  0001 C CNN

@@ -29,6 +29,10 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:motors
+LIBS:ic_dil_generic
+LIBS:sensors
+LIBS:u-blox
+LIBS:amplifiers
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
@@ -93,7 +97,7 @@ S 4100 650  900  200
 U 596CC80F
 F0 "GPS_board" 60
 F1 "gps_board.sch" 60
-F2 "RIBBON_CENTER" B R 5000 750 60 
+F2 "RIB_CENTER" B R 5000 750 60 
 $EndSheet
 $Sheet
 S 4350 4150 1100 200 
@@ -118,15 +122,6 @@ U 596D4B0A
 F0 "IMU_board" 60
 F1 "imu_board.sch" 60
 F2 "FLAT_FC" B L 3150 750 60 
-$EndSheet
-$Sheet
-S 1350 1400 650  400 
-U 596D582B
-F0 "ESC0" 60
-F1 "esc.sch" 60
-F2 "CONTROL" B R 2000 1700 60 
-F3 "POWER" I R 2000 1500 60 
-F4 "MOTOR" O L 1350 1600 60 
 $EndSheet
 $Sheet
 S 1350 2050 650  400 
@@ -708,5 +703,14 @@ F0 "Driver_Yaw" 60
 F1 "gimbal_arm_driver.sch" 60
 F2 "FLAT_TOP" B R 2700 4700 60 
 F3 "FLAT_MOTOR" O L 1700 4600 60 
+$EndSheet
+$Sheet
+S 1350 1400 650  400 
+U 596D582B
+F0 "ESC0" 60
+F1 "esc.sch" 60
+F2 "CONTROL" B R 2000 1700 60 
+F3 "POWER" I R 2000 1500 60 
+F4 "MOTOR" O L 1350 1600 60 
 $EndSheet
 $EndSCHEMATC

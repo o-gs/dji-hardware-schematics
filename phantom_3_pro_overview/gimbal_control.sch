@@ -29,17 +29,21 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:motors
+LIBS:ic_dil_generic
+LIBS:sensors
+LIBS:u-blox
+LIBS:amplifiers
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 23
-Title ""
+Sheet 9 23
+Title "Overview of the Phantom 3 Pro Gimbal control"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "This schematic does not aim to be electrically correct, it is conceptual."
 Comment2 ""
 Comment3 ""
 Comment4 ""
