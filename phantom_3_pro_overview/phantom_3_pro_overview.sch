@@ -33,6 +33,7 @@ LIBS:ic_dil_generic
 LIBS:sensors
 LIBS:u-blox
 LIBS:amplifiers
+LIBS:transistors-switches
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
@@ -49,27 +50,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3300 4250 800  1050
-U 596C09C0
-F0 "OFDM_board" 60
-F1 "ofdm_board.sch" 60
-F2 "RIB_CENTER" B L 3300 4350 60 
-F3 "RIB_OFDM" B L 3300 4450 60 
-F4 "ANTENNA1" B R 4100 4550 60 
-F5 "ANTENNA2" B R 4100 4750 60 
-F6 "ANTENNA3" B R 4100 4950 60 
-F7 "ANTENNA4" B R 4100 5150 60 
-$EndSheet
-$Sheet
-S 1700 3300 1000 500 
-U 596C09C6
-F0 "Camera_Encoder" 60
-F1 "camera_encoder.sch" 60
-F2 "RIBBON_CENTER" B L 1700 3400 60 
-F3 "RIBBON_OFDM" B R 2700 3500 60 
-F4 "FLAT_CAMERA" B R 2700 3700 60 
-$EndSheet
-$Sheet
 S 1600 650  1400 200 
 U 596C09C9
 F0 "Flight_Controller_board" 60
@@ -78,77 +58,11 @@ F2 "PADS_CENTER" B L 1600 750 60
 F3 "FLAT_IMU" B R 3000 750 60 
 $EndSheet
 $Sheet
-S 1550 5500 1250 200 
-U 596C09CC
-F0 "Driver_Pitch_board" 60
-F1 "gimbal_arm_driver.sch" 60
-F2 "FLAT_TOP" B R 2800 5600 60 
-F3 "FLAT_MOTOR" O L 1550 5600 60 
-$EndSheet
-$Sheet
-S 1550 5900 1250 200 
-U 596C09D2
-F0 "Camera_Sensor_board" 60
-F1 "camera_sensor_board.sch" 60
-F2 "FLAT_TOP" B R 2800 6000 60 
-$EndSheet
-$Sheet
-S 4100 650  900  200 
-U 596CC80F
-F0 "GPS_board" 60
-F1 "gps_board.sch" 60
-F2 "RIB_CENTER" B R 5000 750 60 
-$EndSheet
-$Sheet
-S 4350 4150 1100 200 
-U 596CC8B4
-F0 "Compass_board" 60
-F1 "compass_board.sch" 60
-F2 "RIBBON_CENTER" B R 5450 4250 60 
-$EndSheet
-$Sheet
-S 1700 4000 1000 300 
-U 596D13DD
-F0 "Gimbal_Control" 60
-F1 "gimbal_control.sch" 60
-F2 "RIBBON_CENTER" B L 1700 4100 60 
-F3 "FLAT_CAMERA" B R 2700 4200 60 
-$EndSheet
-Text Notes 1600 3100 0    60   ~ 0
-Gimbal_Top_board
-$Sheet
 S 3150 650  800  200 
 U 596D4B0A
 F0 "IMU_board" 60
 F1 "imu_board.sch" 60
 F2 "FLAT_FC" B L 3150 750 60 
-$EndSheet
-$Sheet
-S 1350 2050 650  400 
-U 596D6852
-F0 "ESC1" 60
-F1 "esc.sch" 60
-F2 "CONTROL" B R 2000 2350 60 
-F3 "POWER" I R 2000 2150 60 
-F4 "MOTOR" O L 1350 2250 60 
-$EndSheet
-$Sheet
-S 4600 2050 650  400 
-U 596D6BDD
-F0 "ESC3" 60
-F1 "esc.sch" 60
-F2 "CONTROL" B L 4600 2350 60 
-F3 "POWER" I L 4600 2150 60 
-F4 "MOTOR" O R 5250 2250 60 
-$EndSheet
-$Sheet
-S 4600 1400 650  400 
-U 596D6DC3
-F0 "ESC2" 60
-F1 "esc.sch" 60
-F2 "CONTROL" B L 4600 1700 60 
-F3 "POWER" I L 4600 1500 60 
-F4 "MOTOR" O R 5250 1600 60 
 $EndSheet
 $Sheet
 S 2450 1350 1700 1250
@@ -176,32 +90,18 @@ $EndSheet
 Text Notes 1350 1200 0    60   ~ 0
 ESC_Center_board
 $Sheet
-S 600  1150 550  200 
-U 596E06B8
-F0 "LED0" 60
-F1 "LED.sch" 60
-F2 "CTRL" I R 1150 1250 60 
+S 4100 650  900  200 
+U 596CC80F
+F0 "GPS_board" 60
+F1 "gps_board.sch" 60
+F2 "RIB_CENTER" B R 5000 750 60 
 $EndSheet
 $Sheet
-S 5450 1150 550  200 
-U 596E11F0
-F0 "LED2" 60
-F1 "LED.sch" 60
-F2 "CTRL" I L 5450 1250 60 
-$EndSheet
-$Sheet
-S 600  2500 550  200 
-U 596E1317
-F0 "LED1" 60
-F1 "LED.sch" 60
-F2 "CTRL" I R 1150 2600 60 
-$EndSheet
-$Sheet
-S 5450 2500 550  200 
-U 596E15BB
-F0 "LED3" 60
-F1 "LED.sch" 60
-F2 "CTRL" I L 5450 2600 60 
+S 4350 4150 1100 200 
+U 596CC8B4
+F0 "Compass_board" 60
+F1 "compass_board.sch" 60
+F2 "RIBBON_CENTER" B R 5450 4250 60 
 $EndSheet
 $Sheet
 S 4450 3200 900  200 
@@ -219,6 +119,132 @@ F2 "RIBBON_CENTER" B L 4450 3700 60
 $EndSheet
 Text Notes 4450 3050 0    60   ~ 0
 VPS_board
+$Sheet
+S 1350 1400 650  400 
+U 596D582B
+F0 "ESC0" 60
+F1 "esc.sch" 60
+F2 "CONTROL" B R 2000 1700 60 
+F3 "POWER" I R 2000 1500 60 
+F4 "MOTOR" O L 1350 1600 60 
+$EndSheet
+$Sheet
+S 1350 2050 650  400 
+U 596D6852
+F0 "ESC1" 60
+F1 "esc.sch" 60
+F2 "CONTROL" B R 2000 2350 60 
+F3 "POWER" I R 2000 2150 60 
+F4 "MOTOR" O L 1350 2250 60 
+$EndSheet
+$Sheet
+S 4600 1400 650  400 
+U 596D6DC3
+F0 "ESC2" 60
+F1 "esc.sch" 60
+F2 "CONTROL" B L 4600 1700 60 
+F3 "POWER" I L 4600 1500 60 
+F4 "MOTOR" O R 5250 1600 60 
+$EndSheet
+$Sheet
+S 4600 2050 650  400 
+U 596D6BDD
+F0 "ESC3" 60
+F1 "esc.sch" 60
+F2 "CONTROL" B L 4600 2350 60 
+F3 "POWER" I L 4600 2150 60 
+F4 "MOTOR" O R 5250 2250 60 
+$EndSheet
+$Sheet
+S 600  1150 550  200 
+U 596E06B8
+F0 "LED0" 60
+F1 "LED.sch" 60
+F2 "CTRL" I R 1150 1250 60 
+$EndSheet
+$Sheet
+S 600  2500 550  200 
+U 596E1317
+F0 "LED1" 60
+F1 "LED.sch" 60
+F2 "CTRL" I R 1150 2600 60 
+$EndSheet
+$Sheet
+S 5450 1150 550  200 
+U 596E11F0
+F0 "LED2" 60
+F1 "LED.sch" 60
+F2 "CTRL" I L 5450 1250 60 
+$EndSheet
+$Sheet
+S 5450 2500 550  200 
+U 596E15BB
+F0 "LED3" 60
+F1 "LED.sch" 60
+F2 "CTRL" I L 5450 2600 60 
+$EndSheet
+$Sheet
+S 3300 4250 800  1050
+U 596C09C0
+F0 "OFDM_board" 60
+F1 "ofdm_board.sch" 60
+F2 "RIB_CENTER" B L 3300 4350 60 
+F3 "RIB_OFDM" B L 3300 4450 60 
+F4 "ANTENNA1" B R 4100 4550 60 
+F5 "ANTENNA2" B R 4100 4750 60 
+F6 "ANTENNA3" B R 4100 4950 60 
+F7 "ANTENNA4" B R 4100 5150 60 
+$EndSheet
+$Sheet
+S 1700 3300 1000 500 
+U 596C09C6
+F0 "Camera_Encoder" 60
+F1 "camera_encoder.sch" 60
+F2 "RIBBON_CENTER" B L 1700 3400 60 
+F3 "RIBBON_OFDM" B R 2700 3500 60 
+F4 "FLAT_CAMERA" B R 2700 3700 60 
+$EndSheet
+$Sheet
+S 1700 4000 1000 300 
+U 596D13DD
+F0 "Gimbal_Control" 60
+F1 "gimbal_control.sch" 60
+F2 "RIBBON_CENTER" B L 1700 4100 60 
+F3 "FLAT_CAMERA" B R 2700 4200 60 
+$EndSheet
+$Sheet
+S 1550 5500 1250 200 
+U 596C09CC
+F0 "Driver_Pitch_board" 60
+F1 "gimbal_arm_driver.sch" 60
+F2 "FLAT_TOP" B R 2800 5600 60 
+F3 "FLAT_MOTOR" O L 1550 5600 60 
+$EndSheet
+Text Notes 1600 3100 0    60   ~ 0
+Gimbal_Top_board
+$Sheet
+S 1550 5050 1250 200 
+U 596E82ED
+F0 "Driver_Roll_board" 60
+F1 "gimbal_arm_driver.sch" 60
+F2 "FLAT_TOP" B R 2800 5150 60 
+F3 "FLAT_MOTOR" O L 1550 5150 60 
+$EndSheet
+$Sheet
+S 1700 4500 1000 300 
+U 596E86D9
+F0 "Driver_Yaw" 60
+F1 "gimbal_arm_driver.sch" 60
+F2 "FLAT_TOP" B R 2700 4700 60 
+F3 "FLAT_MOTOR" O L 1700 4600 60 
+$EndSheet
+$Sheet
+S 1550 5900 1250 200 
+U 596C09D2
+F0 "Camera_Sensor_board" 60
+F1 "camera_sensor_board.sch" 60
+F2 "FLAT_TOP" B R 2800 6000 60 
+$EndSheet
 $Comp
 L Brushless_Motor_3phase_seri M3
 U 1 1 596D3599
@@ -688,29 +714,4 @@ Wire Bus Line
 	3300 4350 3250 4350
 Wire Bus Line
 	3300 4450 3150 4450
-$Sheet
-S 1550 5050 1250 200 
-U 596E82ED
-F0 "Driver_Roll_board" 60
-F1 "gimbal_arm_driver.sch" 60
-F2 "FLAT_TOP" B R 2800 5150 60 
-F3 "FLAT_MOTOR" O L 1550 5150 60 
-$EndSheet
-$Sheet
-S 1700 4500 1000 300 
-U 596E86D9
-F0 "Driver_Yaw" 60
-F1 "gimbal_arm_driver.sch" 60
-F2 "FLAT_TOP" B R 2700 4700 60 
-F3 "FLAT_MOTOR" O L 1700 4600 60 
-$EndSheet
-$Sheet
-S 1350 1400 650  400 
-U 596D582B
-F0 "ESC0" 60
-F1 "esc.sch" 60
-F2 "CONTROL" B R 2000 1700 60 
-F3 "POWER" I R 2000 1500 60 
-F4 "MOTOR" O L 1350 1600 60 
-$EndSheet
 $EndSCHEMATC

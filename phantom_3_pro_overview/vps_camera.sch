@@ -33,6 +33,7 @@ LIBS:ic_dil_generic
 LIBS:sensors
 LIBS:u-blox
 LIBS:amplifiers
+LIBS:transistors-switches
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
