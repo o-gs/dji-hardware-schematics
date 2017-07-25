@@ -1,4 +1,4 @@
-update=2017-04-23 09:10:15
+update=25/07/2017 03:50:57
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=D:/projects_kicad/lib/TMS320F28027FPT
 LibName33=D:/projects_kicad/lib/motors
 LibName34=D:/projects_kicad/lib/motor_drivers
 LibName35=D:/projects_kicad/lib/texas
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
