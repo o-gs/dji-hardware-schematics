@@ -34,6 +34,7 @@ LIBS:sensors
 LIBS:u-blox
 LIBS:amplifiers
 LIBS:transistors-switches
+LIBS:transistors-power
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
@@ -341,17 +342,6 @@ Entry Bus Bus
 	5400 2850 5500 2950
 Entry Bus Bus
 	1400 3000 1500 2900
-$Comp
-L Motor_Servo M_pitch
-U 1 1 5970AE18
-P 1000 5350
-F 0 "M_pitch" H 800 5525 50  0000 L CNN
-F 1 "Motor_Servo" H 800 5190 50  0000 L TNN
-F 2 "" H 1000 5160 50  0001 C CNN
-F 3 "" H 1000 5160 50  0001 C CNN
-	1    1000 5350
-	-1   0    0    1   
-$EndComp
 Entry Wire Line
 	1450 5550 1350 5450
 Entry Wire Line
@@ -546,17 +536,6 @@ Wire Wire Line
 	1350 5250 1300 5250
 Wire Bus Line
 	1450 5600 1550 5600
-$Comp
-L Motor_Servo M_roll
-U 1 1 5970C2E7
-P 1000 4900
-F 0 "M_roll" H 800 5075 50  0000 L CNN
-F 1 "Motor_Servo" H 800 4740 50  0000 L TNN
-F 2 "" H 1000 4710 50  0001 C CNN
-F 3 "" H 1000 4710 50  0001 C CNN
-	1    1000 4900
-	-1   0    0    1   
-$EndComp
 Entry Wire Line
 	1450 5100 1350 5000
 Entry Wire Line
@@ -573,17 +552,6 @@ Wire Wire Line
 	1350 4800 1300 4800
 Wire Bus Line
 	1450 5150 1550 5150
-$Comp
-L Motor_Servo M_yaw
-U 1 1 5970C4FE
-P 1000 4350
-F 0 "M_yaw" H 800 4525 50  0000 L CNN
-F 1 "Motor_Servo" H 800 4190 50  0000 L TNN
-F 2 "" H 1000 4160 50  0001 C CNN
-F 3 "" H 1000 4160 50  0001 C CNN
-	1    1000 4350
-	-1   0    0    1   
-$EndComp
 Entry Wire Line
 	1450 4550 1350 4450
 Entry Wire Line
@@ -714,4 +682,37 @@ Wire Bus Line
 	3300 4350 3250 4350
 Wire Bus Line
 	3300 4450 3150 4450
+$Comp
+L Motor_Servo_3Ph M_yaw
+U 1 1 59719EE0
+P 1000 4350
+F 0 "M_yaw" H 800 4525 50  0000 L CNN
+F 1 "Motor_Servo_3Ph" H 800 4190 50  0000 L TNN
+F 2 "" H 1000 4160 50  0001 C CNN
+F 3 "" H 1000 4160 50  0001 C CNN
+	1    1000 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Motor_Servo_3Ph M_roll
+U 1 1 5971A5AD
+P 1000 4900
+F 0 "M_roll" H 800 5075 50  0000 L CNN
+F 1 "Motor_Servo_3Ph" H 800 4740 50  0000 L TNN
+F 2 "" H 1000 4710 50  0001 C CNN
+F 3 "" H 1000 4710 50  0001 C CNN
+	1    1000 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Motor_Servo_3Ph M_pitch
+U 1 1 5971A85D
+P 1000 5350
+F 0 "M_pitch" H 800 5525 50  0000 L CNN
+F 1 "Motor_Servo_3Ph" H 800 5190 50  0000 L TNN
+F 2 "" H 1000 5160 50  0001 C CNN
+F 3 "" H 1000 5160 50  0001 C CNN
+	1    1000 5350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

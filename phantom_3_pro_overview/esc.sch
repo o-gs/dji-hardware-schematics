@@ -34,12 +34,13 @@ LIBS:sensors
 LIBS:u-blox
 LIBS:amplifiers
 LIBS:transistors-switches
+LIBS:transistors-power
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 7402 4725
 encoding utf-8
-Sheet 13 23
+Sheet 11 23
 Title "Overview of the Phantom 3 Pro ESC circuit"
 Date ""
 Rev ""

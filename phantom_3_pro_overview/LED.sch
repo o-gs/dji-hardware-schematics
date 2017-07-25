@@ -34,12 +34,13 @@ LIBS:sensors
 LIBS:u-blox
 LIBS:amplifiers
 LIBS:transistors-switches
+LIBS:transistors-power
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 5354 4724
 encoding utf-8
-Sheet 16 23
+Sheet 13 23
 Title "Overview of the Phantom 3 Pro LED board"
 Date ""
 Rev ""
