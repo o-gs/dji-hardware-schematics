@@ -1,4 +1,4 @@
-update=25/07/2017 03:50:57
+update=25/07/2017 19:42:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../../lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,19 +68,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=D:/projects_kicad/lib/DRV8301_DCA_56_thin
-LibName31=D:/projects_kicad/lib/DRV8301_DCA_56
-LibName32=D:/projects_kicad/lib/TMS320F28027FPT
-LibName33=D:/projects_kicad/lib/motors
-LibName34=D:/projects_kicad/lib/motor_drivers
-LibName35=D:/projects_kicad/lib/texas
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName30=DRV8301_DCA_56_thin
+LibName31=DRV8301_DCA_56
+LibName32=TMS320F28027FPT
+LibName33=motors
+LibName34=motor_drivers
