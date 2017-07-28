@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 23
+Sheet 18 23
 Title "Overview of the Phantom 3 Pro Camera Encoder"
 Date ""
 Rev ""

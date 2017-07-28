@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 5354 4725
 encoding utf-8
-Sheet 14 23
+Sheet 4 23
 Title "Overview of the Phantom 3 Pro Center part of MB"
 Date ""
 Rev ""

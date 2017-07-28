@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 5197 4724
 encoding utf-8
-Sheet 20 23
+Sheet 22 23
 Title "Overview of the Phantom 3 Pro Gimbal Arm Driver"
 Date ""
 Rev ""
