@@ -30,9 +30,9 @@ LIBS:contrib
 LIBS:valves
 LIBS:DRV8301_DCA_56_thin
 LIBS:DRV8301_DCA_56
-LIBS:TMS320F28027FPT
 LIBS:motors
 LIBS:motor_drivers
+LIBS:texas-uc
 LIBS:phantom_3_pro_esc_center_board-cache
 EELAYER 25 0
 EELAYER END
@@ -678,9 +678,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2900 1750 2950
 Wire Wire Line
-	1650 2900 1650 3100
-Wire Wire Line
-	1650 3100 1650 3250
+	1650 2900 1650 3250
 Wire Wire Line
 	1750 1700 1750 1650
 Wire Wire Line
@@ -720,23 +718,9 @@ Wire Wire Line
 Wire Wire Line
 	2050 2950 2050 2900
 Wire Wire Line
-	1850 1300 2250 1300
+	1850 1300 3550 1300
 Wire Wire Line
-	2250 1300 2550 1300
-Wire Wire Line
-	2550 1300 2750 1300
-Wire Wire Line
-	2750 1300 3150 1300
-Wire Wire Line
-	3150 1300 3550 1300
-Wire Wire Line
-	2250 1300 2550 1300
-Wire Wire Line
-	2550 1300 2750 1300
-Wire Wire Line
-	2750 1300 3150 1300
-Wire Wire Line
-	3150 1300 3450 1300
+	2250 1300 3450 1300
 Wire Wire Line
 	2650 1700 2650 1650
 Wire Wire Line
@@ -817,13 +801,7 @@ F 3 "" H 2800 900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 900  2950 900 
-Wire Wire Line
-	2950 900  3050 900 
-Wire Wire Line
-	3050 900  3150 900 
-Wire Wire Line
-	3150 900  3250 900 
+	2800 900  3250 900 
 Wire Wire Line
 	3250 900  3250 850 
 Wire Wire Line
@@ -848,13 +826,7 @@ $EndComp
 Wire Wire Line
 	3350 850  3350 900 
 Wire Wire Line
-	3350 900  3450 900 
-Wire Wire Line
-	3450 900  3550 900 
-Wire Wire Line
-	3550 900  3650 900 
-Wire Wire Line
-	3650 900  3800 900 
+	3350 900  3800 900 
 Wire Wire Line
 	3650 850  3650 900 
 Connection ~ 3650 900 
@@ -881,15 +853,7 @@ M12_R
 Wire Wire Line
 	2150 1700 2150 1650
 Wire Wire Line
-	1650 3250 1950 3250
-Wire Wire Line
-	1950 3250 2450 3250
-Wire Wire Line
-	2450 3250 2650 3250
-Wire Wire Line
-	2650 3250 3150 3250
-Wire Wire Line
-	3150 3250 3350 3250
+	1650 3250 3350 3250
 Connection ~ 1950 3250
 Connection ~ 2650 3250
 Connection ~ 3150 3250
@@ -925,9 +889,7 @@ F 3 "" H 4450 2250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 2250 4650 2250
-Wire Wire Line
-	4650 2250 4700 2250
+	4450 2250 4700 2250
 Wire Wire Line
 	4700 2350 4650 2350
 Wire Wire Line
@@ -936,9 +898,7 @@ Connection ~ 4650 2250
 Text Label 4700 2450 2    60   ~ 0
 5V
 Wire Wire Line
-	4500 2450 4650 2450
-Wire Wire Line
-	4650 2450 4700 2450
+	4500 2450 4700 2450
 Wire Wire Line
 	4700 2550 4650 2550
 Wire Wire Line
@@ -1008,13 +968,9 @@ F 3 "" H 750 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	950  1650 1050 1650
+	950  1650 1250 1650
 Wire Wire Line
-	1050 1650 1250 1650
-Wire Wire Line
-	950  1750 1050 1750
-Wire Wire Line
-	1050 1750 1250 1750
+	950  1750 1250 1750
 Text Label 1250 1650 0    60   ~ 0
 12V
 Wire Wire Line
@@ -1312,4 +1268,12 @@ F 3 "" H 5550 2600 50  0001 C CNN
 	1    5550 2600
 	0    1    1    0   
 $EndComp
+Text Label 4650 1700 2    60   ~ 0
+GND/3V6?
+Wire Wire Line
+	4700 1700 4650 1700
+Text Label 4650 1900 2    60   ~ 0
+3V6/GND?
+Wire Wire Line
+	4700 1900 4650 1900
 $EndSCHEMATC

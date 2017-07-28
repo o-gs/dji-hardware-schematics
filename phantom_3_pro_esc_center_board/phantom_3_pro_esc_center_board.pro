@@ -1,4 +1,4 @@
-update=25/07/2017 19:42:43
+update=28/07/2017 01:57:21
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,6 +70,6 @@ LibName28=contrib
 LibName29=valves
 LibName30=DRV8301_DCA_56_thin
 LibName31=DRV8301_DCA_56
-LibName32=TMS320F28027FPT
-LibName33=motors
-LibName34=motor_drivers
+LibName32=motors
+LibName33=motor_drivers
+LibName34=texas-uc
