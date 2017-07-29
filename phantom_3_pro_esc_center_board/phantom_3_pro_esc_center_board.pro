@@ -1,4 +1,4 @@
-update=28/07/2017 01:57:21
+update=28/07/2017 19:02:13
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,4 @@ LibName31=DRV8301_DCA_56
 LibName32=motors
 LibName33=motor_drivers
 LibName34=texas-uc
+LibName35=regul-v2

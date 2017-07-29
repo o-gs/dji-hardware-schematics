@@ -33,12 +33,13 @@ LIBS:DRV8301_DCA_56
 LIBS:motors
 LIBS:motor_drivers
 LIBS:texas-uc
+LIBS:regul-v2
 LIBS:phantom_3_pro_esc_center_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""

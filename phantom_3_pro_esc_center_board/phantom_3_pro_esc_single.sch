@@ -33,6 +33,7 @@ LIBS:DRV8301_DCA_56
 LIBS:motors
 LIBS:motor_drivers
 LIBS:texas-uc
+LIBS:regul-v2
 LIBS:phantom_3_pro_esc_center_board-cache
 EELAYER 25 0
 EELAYER END
