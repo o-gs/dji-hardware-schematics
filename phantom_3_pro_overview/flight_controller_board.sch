@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 6299 4370
 encoding utf-8
-Sheet 4 23
+Sheet 2 23
 Title "Overview of the Phantom 3 Pro FC board"
 Date ""
 Rev ""

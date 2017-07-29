@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 5197 4331
 encoding utf-8
-Sheet 10 23
+Sheet 3 23
 Title "Overview of the Phantom 3 Pro IMU board"
 Date ""
 Rev ""
