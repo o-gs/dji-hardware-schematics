@@ -35,12 +35,14 @@ LIBS:u-blox
 LIBS:amplifiers
 LIBS:transistors-switches
 LIBS:transistors-power
+LIBS:sensors-v2
+LIBS:regul-v2
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 5197 4724
 encoding utf-8
-Sheet 22 23
+Sheet 20 23
 Title "Overview of the Phantom 3 Pro Gimbal Arm Driver"
 Date ""
 Rev ""

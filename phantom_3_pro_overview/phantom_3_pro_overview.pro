@@ -1,4 +1,4 @@
-update=20/07/2017 22:08:15
+update=30/07/2017 17:31:20
 version=1
 last_client=kicad
 [pcbnew]
@@ -75,3 +75,5 @@ LibName33=u-blox
 LibName34=amplifiers
 LibName35=transistors-switches
 LibName36=transistors-power
+LibName37=sensors-v2
+LibName38=regul-v2

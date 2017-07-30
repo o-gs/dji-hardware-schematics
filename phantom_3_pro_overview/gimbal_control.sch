@@ -35,6 +35,8 @@ LIBS:u-blox
 LIBS:amplifiers
 LIBS:transistors-switches
 LIBS:transistors-power
+LIBS:sensors-v2
+LIBS:regul-v2
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END

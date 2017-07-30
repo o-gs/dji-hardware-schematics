@@ -35,12 +35,14 @@ LIBS:u-blox
 LIBS:amplifiers
 LIBS:transistors-switches
 LIBS:transistors-power
+LIBS:sensors-v2
+LIBS:regul-v2
 LIBS:phantom_3_pro_overview-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 23
+Sheet 7 23
 Title "Overview of the Phantom 3 Pro VPS Sonar"
 Date ""
 Rev ""
