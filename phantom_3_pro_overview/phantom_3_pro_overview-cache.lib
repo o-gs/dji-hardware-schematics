@@ -633,6 +633,29 @@ X SHIELD 9 800 -600 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Microphone_Crystal
+#
+DEF Microphone_Crystal MK 0 1 Y N 1 F N
+F0 "MK" -150 45 50 H V R CNN
+F1 "Microphone_Crystal" -150 -30 50 H V R CNN
+F2 "" 50 -70 50 V I L CNN
+F3 "" 0 100 50 V I C CNN
+ALIAS Microphone_Ultrasound
+DRAW
+C 0 0 100 0 1 10 N
+S -50 20 50 -20 0 1 10 N
+P 2 0 1 10 -100 100 -100 -100 N
+P 2 0 1 0 -30 -40 30 -40 N
+P 2 0 1 0 -30 40 30 40 N
+P 2 0 1 0 0 -40 0 -70 N
+P 2 0 1 0 0 40 0 70 N
+P 2 0 1 0 10 150 30 150 N
+P 2 0 1 0 20 160 20 140 N
+X - 1 0 -200 100 U 50 50 1 1 P
+X + 2 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Motor_Servo_3Ph
 #
 DEF Motor_Servo_3Ph M 0 1 Y Y 1 F N
@@ -699,6 +722,27 @@ X Vcc 3 0 300 100 D 50 50 1 1 W
 X OI1 4 300 0 100 L 50 50 1 1 P
 X OI2 5 300 -100 100 L 50 50 1 1 P
 X GND ~ 0 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Speaker_Crystal
+#
+DEF Speaker_Crystal LS 0 0 Y N 1 F N
+F0 "LS" 25 225 50 H V R CNN
+F1 "Speaker_Crystal" 25 150 50 H V R CNN
+F2 "" -35 -50 50 H I C CNN
+F3 "" -35 -50 50 H I C CNN
+ALIAS Speaker_Ultrasound
+DRAW
+S -100 50 45 -150 0 0 10 N
+S -80 -25 25 -75 0 0 10 N
+P 2 0 0 0 -65 -90 15 -90 N
+P 2 0 0 0 -65 -10 15 -10 N
+P 2 0 0 0 -25 -90 -25 -120 N
+P 2 0 0 0 -25 -10 -25 20 N
+P 4 0 0 10 45 50 145 150 145 -250 45 -150 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
