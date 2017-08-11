@@ -254,6 +254,7 @@ $FPLIST
  Pin_Header_Angled_1X*
  Socket_Strip_Straight_1X*
  Socket_Strip_Angled_1X*
+ Connector*
 $ENDFPLIST
 DRAW
 S -50 -1000 50 1000 0 1 0 N
@@ -312,6 +313,7 @@ $FPLIST
  Pin_Header_Angled_1X*
  Socket_Strip_Straight_1X*
  Socket_Strip_Angled_1X*
+ Connector*
 $ENDFPLIST
 DRAW
 S -50 -1050 50 1050 0 1 0 N
