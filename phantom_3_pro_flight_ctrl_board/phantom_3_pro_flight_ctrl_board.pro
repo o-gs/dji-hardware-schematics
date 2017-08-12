@@ -1,4 +1,4 @@
-update=11/08/2017 08:53:25
+update=12/08/2017 11:23:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=texas-uc
 LibName32=ic_dil_generic
+LibName33=sensors
+LibName34=sensors-v2
