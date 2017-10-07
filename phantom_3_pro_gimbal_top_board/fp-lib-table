@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Housings_BGA-v2)(type KiCad)(uri ${KIPRJMOD}/../../lib/Housings_BGA-v2.pretty)(options "")(descr "User BGA"))
+  (lib (name Housings_DFN_QFN-v2)(type KiCad)(uri ${KIPRJMOD}/../../lib/Housings_DFN_QFN-v2.pretty)(options "")(descr "User DFN/QFN"))
+)

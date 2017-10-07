@@ -1,4 +1,4 @@
-update=01/10/2017 19:55:00
+update=07/10/2017 14:19:08
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=TMS320DM365_ZCE_338_thin
-LibName31=memory-ram
-LibName32=regul-v2
+LibName30=memory-ram
+LibName31=regul-v2
+LibName32=texas-uc
+LibName33=texas-trx
