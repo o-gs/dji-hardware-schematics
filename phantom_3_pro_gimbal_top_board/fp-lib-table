@@ -1,4 +1,10 @@
 (fp_lib_table
-  (lib (name Housings_BGA-v2)(type KiCad)(uri ${KIPRJMOD}/../../lib/Housings_BGA-v2.pretty)(options "")(descr "User BGA"))
-  (lib (name Housings_DFN_QFN-v2)(type KiCad)(uri ${KIPRJMOD}/../../lib/Housings_DFN_QFN-v2.pretty)(options "")(descr "User DFN/QFN"))
+  (lib (name Housings_BGA-v2)(type KiCad)(uri ${KIPRJMOD}/../../modules/Housings_BGA-v2.pretty)(options "")(descr "User BGA"))
+  (lib (name Housings_DFN_QFN-v2)(type KiCad)(uri ${KIPRJMOD}/../../modules/Housings_DFN_QFN-v2.pretty)(options "")(descr "User DFN/QFN"))
+  (lib (name Connectors_FFC)(type KiCad)(uri ${KIPRJMOD}/../../modules/Connectors_FFC.pretty)(options "")(descr "User conn flat foam"))
+  (lib (name Connectors_custom)(type KiCad)(uri ${KIPRJMOD}/../../modules/Connectors_custom.pretty)(options "")(descr "User conn"))
+  (lib (name texas-uc-all-geda)(type Geda-PCB)(uri ${KIPRJMOD}/../../modules/texas-uc-all-geda)(options "")(descr "auto import bxl"))
+  (lib (name texas-var-geda)(type Geda-PCB)(uri ${KIPRJMOD}/../../modules/texas-var-geda)(options "")(descr "auto import bxl"))
+  (lib (name TO_SOT_Packages_SMD-v2)(type KiCad)(uri ${KIPRJMOD}/../../modules/TO_SOT_Packages_SMD-v2.pretty)(options "")(descr "user sot"))
+  (lib (name Housings_LGA-v2)(type KiCad)(uri ${KIPRJMOD}/../../modules/Housings_LGA-v2.pretty)(options "")(descr "User LGA"))
 )

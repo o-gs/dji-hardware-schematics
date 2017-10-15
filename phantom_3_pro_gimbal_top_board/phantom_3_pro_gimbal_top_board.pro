@@ -1,4 +1,4 @@
-update=07/10/2017 14:19:08
+update=14/10/2017 11:56:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,6 +59,11 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=memory-ram
-LibName31=regul-v2
-LibName32=texas-uc
-LibName33=texas-trx
+LibName31=memory-flash
+LibName32=regul-v2
+LibName33=sensors
+LibName34=sensors-v2
+LibName35=texas-uc
+LibName36=texas-trx
+LibName37=texas-mux
+LibName38=microchip-dsp
