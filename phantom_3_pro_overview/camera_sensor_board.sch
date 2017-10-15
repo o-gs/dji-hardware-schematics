@@ -54,7 +54,7 @@ Comment4 ""
 $EndDescr
 Wire Bus Line
 	2150 2400 1050 2400
-Text HLabel 1050 2400 0    60   BiDi ~ 0
+Text HLabel 1050 2400 0    60   Output ~ 0
 FLAT_TOP
 $Comp
 L IC_PQFP48 U?

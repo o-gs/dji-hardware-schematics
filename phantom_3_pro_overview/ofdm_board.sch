@@ -55,7 +55,7 @@ $EndDescr
 Text HLabel 600  1200 1    60   BiDi ~ 0
 RIB_CENTER
 Text HLabel 600  2150 1    60   BiDi ~ 0
-RIB_OFDM
+RIB_CAMERA
 Text HLabel 8350 1900 2    60   BiDi ~ 0
 ANTENNA1
 Text HLabel 8350 2950 2    60   BiDi ~ 0
