@@ -211,7 +211,7 @@
       (tstamp 59824CEE))
     (comp (ref U1)
       (value STM32F427II)
-      (footprint Housings_BGA_custom:BGA-176p25_10x10_11.0x11.0mm_Pitch0.65mm)
+      (footprint Housings_BGA-v2:BGA-176p25_10x10_11.0x11.0mm_Pitch0.65mm)
       (libsource (lib texas-uc) (part STM32F4XXH2))
       (sheetpath (names /) (tstamps /))
       (tstamp 598DF7E9))

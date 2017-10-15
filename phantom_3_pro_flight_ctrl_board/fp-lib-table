@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name Housings_BGA_custom)(type KiCad)(uri ${KIPRJMOD}/../../modules/Housings_BGA_custom.pretty)(options "")(descr BGAs))
+  (lib (name Housings_BGA-v2)(type KiCad)(uri ${KIPRJMOD}/../../modules/Housings_BGA-v2.pretty)(options "")(descr BGAs))
   (lib (name Connectors_custom)(type KiCad)(uri ${KIPRJMOD}/../../modules/Connectors_custom.pretty)(options "")(descr Connectors))
 )
