@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 5118 4803
 encoding utf-8
-Sheet 19 23
+Sheet 19 24
 Title "Overview of the Phantom 3 Pro Gimbal control"
 Date ""
 Rev ""
@@ -52,8 +52,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1650 1950 1    60   BiDi ~ 0
-RIBBON_CENTER
+Text HLabel 1650 1400 1    60   Input ~ 0
+GIMBAL_PWR
 Text HLabel 3250 2300 1    60   BiDi ~ 0
 FLAT_ARMS
 $Comp
@@ -157,11 +157,9 @@ Wire Bus Line
 Wire Bus Line
 	1850 1050 1850 750 
 Wire Bus Line
-	1750 2000 1750 1250
+	1650 1450 1650 1400
 Wire Bus Line
-	1650 2000 1650 1950
-Wire Bus Line
-	1750 2000 1650 2000
+	1750 1450 1650 1450
 Wire Wire Line
 	1850 2100 1900 2100
 Wire Wire Line
@@ -199,7 +197,7 @@ Wire Bus Line
 Wire Bus Line
 	3150 2350 3250 2350
 Wire Bus Line
-	2200 2450 3050 2450
+	1850 2450 3050 2450
 Wire Bus Line
 	3150 1500 3150 2350
 Wire Wire Line
@@ -260,4 +258,18 @@ Wire Wire Line
 	2750 850  2700 850 
 Wire Wire Line
 	2700 950  2750 950 
+Wire Bus Line
+	1750 1450 1750 1300
+Entry Bus Bus
+	1750 2350 1850 2450
+Text HLabel 1500 1600 1    60   BiDi ~ 0
+RIBBON_OFDM
+Wire Bus Line
+	1500 1600 1500 1700
+Wire Bus Line
+	1500 1700 1750 1700
+Wire Bus Line
+	1750 1700 1750 1500
+Wire Bus Line
+	1750 1800 1750 2350
 $EndSCHEMATC

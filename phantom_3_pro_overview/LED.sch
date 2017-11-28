@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 5354 4724
 encoding utf-8
-Sheet 14 23
+Sheet 14 24
 Title "Overview of the Phantom 3 Pro LED board"
 Date ""
 Rev ""

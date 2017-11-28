@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 5197 5118
 encoding utf-8
-Sheet 23 23
+Sheet 23 24
 Title "Overview of the Phantom 3 Pro Camera Sensor board"
 Date ""
 Rev ""

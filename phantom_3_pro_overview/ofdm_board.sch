@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 9449 5276
 encoding utf-8
-Sheet 17 23
+Sheet 17 24
 Title "Overview of the Phantom 3 Pro OFDM board"
 Date ""
 Rev ""

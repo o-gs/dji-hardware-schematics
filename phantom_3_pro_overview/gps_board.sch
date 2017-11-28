@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 5197 4000
 encoding utf-8
-Sheet 7 23
+Sheet 5 24
 Title "Overview of the Phantom 3 Pro GPS board"
 Date ""
 Rev ""

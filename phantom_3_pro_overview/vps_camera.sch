@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 23
+Sheet 8 24
 Title "Overview of the Phantom 3 Pro VPS Camera"
 Date ""
 Rev ""
