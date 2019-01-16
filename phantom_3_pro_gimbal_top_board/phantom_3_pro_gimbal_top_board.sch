@@ -53,7 +53,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X08 J1
+L Connector_Generic:Conn_01x08 J1
 U 1 1 596BF98F
 P 18950 2600
 F 0 "J1" H 18950 3050 50  0000 C CNN
@@ -64,7 +64,7 @@ F 3 "" H 18950 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 J4
+L Connector_Generic:Conn_01x06 J4
 U 1 1 596BF9B2
 P 20450 3950
 F 0 "J4" H 20450 4300 50  0000 C CNN
@@ -75,7 +75,7 @@ F 3 "" H 20450 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X35 J3
+L Connector_Generic:Conn_01x35 J3
 U 1 1 59CF5BF8
 P 21100 3050
 F 0 "J3" H 21100 4850 50  0000 C CNN
@@ -86,7 +86,7 @@ F 3 "" H 21100 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X35 J2
+L Connector_Generic:Conn_01x35 J2
 U 1 1 59CF5CBF
 P 21850 2850
 F 0 "J2" H 21850 4650 50  0000 C CNN
@@ -108,7 +108,7 @@ F 3 "" H 16300 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP38
+L Connector:TestPoint TP38
 U 1 1 59F028EE
 P 1400 15000
 F 0 "TP38" H 1400 15300 50  0001 C BNN
@@ -119,7 +119,7 @@ F 3 "" H 1400 15000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP58
+L Connector:TestPoint TP58
 U 1 1 59F028ED
 P 2650 15800
 F 0 "TP58" H 2650 16100 50  0001 C BNN
@@ -130,7 +130,7 @@ F 3 "" H 2650 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP4
+L Connector:TestPoint TP4
 U 1 1 59F028EC
 P 4200 12800
 F 0 "TP4" H 4200 13100 50  0001 C BNN
@@ -141,7 +141,7 @@ F 3 "" H 4200 12800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP3
+L Connector:TestPoint TP3
 U 1 1 59F028EB
 P 4000 12800
 F 0 "TP3" H 4000 13100 50  0001 C BNN
@@ -152,7 +152,7 @@ F 3 "" H 4000 12800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP51
+L Connector:TestPoint TP51
 U 1 1 59F028EA
 P 4150 15400
 F 0 "TP51" H 4150 15700 50  0001 C BNN
@@ -163,7 +163,7 @@ F 3 "" H 4150 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP50
+L Connector:TestPoint TP50
 U 1 1 59F028E9
 P 3750 15400
 F 0 "TP50" H 3750 15700 50  0001 C BNN
@@ -174,7 +174,7 @@ F 3 "" H 3750 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP59
+L Connector:TestPoint TP59
 U 1 1 59F028DF
 P 2800 15800
 F 0 "TP59" H 2800 16100 50  0001 C BNN
@@ -185,7 +185,7 @@ F 3 "" H 2800 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP15
+L Connector:TestPoint TP15
 U 1 1 59F028E7
 P 3000 13650
 F 0 "TP15" H 3000 13950 50  0001 C BNN
@@ -196,7 +196,7 @@ F 3 "" H 3000 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP11
+L Connector:TestPoint TP11
 U 1 1 59F028E6
 P 3600 13250
 F 0 "TP11" H 3600 13550 50  0001 C BNN
@@ -207,7 +207,7 @@ F 3 "" H 3600 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP12
+L Connector:TestPoint TP12
 U 1 1 59F028E5
 P 3850 13250
 F 0 "TP12" H 3850 13550 50  0001 C BNN
@@ -218,7 +218,7 @@ F 3 "" H 3850 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP36
+L Connector:TestPoint TP36
 U 1 1 59F028E4
 P 16450 6650
 F 0 "TP36" H 16450 6950 50  0001 C BNN
@@ -229,7 +229,7 @@ F 3 "" H 16450 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP56
+L Connector:TestPoint TP56
 U 1 1 59F028E3
 P 2350 15800
 F 0 "TP56" H 2350 16100 50  0001 C BNN
@@ -240,7 +240,7 @@ F 3 "" H 2350 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP32
+L Connector:TestPoint TP32
 U 1 1 59F028E2
 P 18700 2150
 F 0 "TP32" H 18700 2450 50  0001 C BNN
@@ -251,7 +251,7 @@ F 3 "" H 18700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP33
+L Connector:TestPoint TP33
 U 1 1 59F028E1
 P 11350 8650
 F 0 "TP33" H 11350 8950 50  0001 C BNN
@@ -262,7 +262,7 @@ F 3 "" H 11350 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP53
+L Connector:TestPoint TP53
 U 1 1 59F028E0
 P 11500 9700
 F 0 "TP53" H 11500 10000 50  0001 C BNN
@@ -273,7 +273,7 @@ F 3 "" H 11500 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP46
+L Connector:TestPoint TP46
 U 1 1 59F028E8
 P 2800 15400
 F 0 "TP46" H 2800 15700 50  0001 C BNN
@@ -284,7 +284,7 @@ F 3 "" H 2800 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP45
+L Connector:TestPoint TP45
 U 1 1 59F028F0
 P 2650 15400
 F 0 "TP45" H 2650 15700 50  0001 C BNN
@@ -295,7 +295,7 @@ F 3 "" H 2650 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP47
+L Connector:TestPoint TP47
 U 1 1 59F028F1
 P 2950 15400
 F 0 "TP47" H 2950 15700 50  0001 C BNN
@@ -306,7 +306,7 @@ F 3 "" H 2950 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP44
+L Connector:TestPoint TP44
 U 1 1 59F028F2
 P 2450 15400
 F 0 "TP44" H 2450 15700 50  0001 C BNN
@@ -317,7 +317,7 @@ F 3 "" H 2450 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP43
+L Connector:TestPoint TP43
 U 1 1 59F028F3
 P 2300 15400
 F 0 "TP43" H 2300 15700 50  0001 C BNN
@@ -328,7 +328,7 @@ F 3 "" H 2300 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP23
+L Connector:TestPoint TP23
 U 1 1 59F028F4
 P 2700 14050
 F 0 "TP23" H 2700 14350 50  0001 C BNN
@@ -339,7 +339,7 @@ F 3 "" H 2700 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP37
+L Connector:TestPoint TP37
 U 1 1 59F028F5
 P 1050 15000
 F 0 "TP37" H 1050 15300 50  0001 C BNN
@@ -350,7 +350,7 @@ F 3 "" H 1050 15000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP52
+L Connector:TestPoint TP52
 U 1 1 59F028F6
 P 700 15650
 F 0 "TP52" H 700 15950 50  0001 C BNN
@@ -361,7 +361,7 @@ F 3 "" H 700 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP41
+L Connector:TestPoint TP41
 U 1 1 59F028F7
 P 1700 15400
 F 0 "TP41" H 1700 15700 50  0001 C BNN
@@ -372,7 +372,7 @@ F 3 "" H 1700 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP61
+L Connector:TestPoint TP61
 U 1 1 59F028F8
 P 3100 15800
 F 0 "TP61" H 3100 16100 50  0001 C BNN
@@ -383,7 +383,7 @@ F 3 "" H 3100 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP26
+L Connector:TestPoint TP26
 U 1 1 59F028F9
 P 3450 14050
 F 0 "TP26" H 3450 14350 50  0001 C BNN
@@ -394,7 +394,7 @@ F 3 "" H 3450 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP27
+L Connector:TestPoint TP27
 U 1 1 59F028FA
 P 3650 14050
 F 0 "TP27" H 3650 14350 50  0001 C BNN
@@ -405,7 +405,7 @@ F 3 "" H 3650 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP55
+L Connector:TestPoint TP55
 U 1 1 59F028FB
 P 2000 15800
 F 0 "TP55" H 2000 16100 50  0001 C BNN
@@ -416,7 +416,7 @@ F 3 "" H 2000 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP28
+L Connector:TestPoint TP28
 U 1 1 59F028FC
 P 4200 14050
 F 0 "TP28" H 4200 14350 50  0001 C BNN
@@ -427,7 +427,7 @@ F 3 "" H 4200 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP25
+L Connector:TestPoint TP25
 U 1 1 59F028FD
 P 3050 14050
 F 0 "TP25" H 3050 14350 50  0001 C BNN
@@ -438,7 +438,7 @@ F 3 "" H 3050 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP10
+L Connector:TestPoint TP10
 U 1 1 59CF60F8
 P 3350 13250
 F 0 "TP10" H 3350 13550 50  0001 C BNN
@@ -449,7 +449,7 @@ F 3 "" H 3350 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP14
+L Connector:TestPoint TP14
 U 1 1 59F028EF
 P 2750 13650
 F 0 "TP14" H 2750 13950 50  0001 C BNN
@@ -460,7 +460,7 @@ F 3 "" H 2750 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP9
+L Connector:TestPoint TP9
 U 1 1 59F028C0
 P 3150 13250
 F 0 "TP9" H 3150 13550 50  0001 C BNN
@@ -471,7 +471,7 @@ F 3 "" H 3150 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP29
+L Connector:TestPoint TP29
 U 1 1 59F028CD
 P 3450 14450
 F 0 "TP29" H 3450 14750 50  0001 C BNN
@@ -482,7 +482,7 @@ F 3 "" H 3450 14450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP19
+L Connector:TestPoint TP19
 U 1 1 59F028CC
 P 4000 13650
 F 0 "TP19" H 4000 13950 50  0001 C BNN
@@ -493,7 +493,7 @@ F 3 "" H 4000 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP20
+L Connector:TestPoint TP20
 U 1 1 59F028CB
 P 4200 13650
 F 0 "TP20" H 4200 13950 50  0001 C BNN
@@ -504,7 +504,7 @@ F 3 "" H 4200 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP42
+L Connector:TestPoint TP42
 U 1 1 59F028CA
 P 11000 14550
 F 0 "TP42" H 11000 14850 50  0001 C BNN
@@ -515,7 +515,7 @@ F 3 "" H 11000 14550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP6
+L Connector:TestPoint TP6
 U 1 1 59F028C9
 P 3200 12850
 F 0 "TP6" H 3200 13150 50  0001 C BNN
@@ -526,7 +526,7 @@ F 3 "" H 3200 12850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP5
+L Connector:TestPoint TP5
 U 1 1 59F028C8
 P 2950 12850
 F 0 "TP5" H 2950 13150 50  0001 C BNN
@@ -537,7 +537,7 @@ F 3 "" H 2950 12850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP22
+L Connector:TestPoint TP22
 U 1 1 59F028C7
 P 2500 14050
 F 0 "TP22" H 2500 14350 50  0001 C BNN
@@ -548,7 +548,7 @@ F 3 "" H 2500 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP21
+L Connector:TestPoint TP21
 U 1 1 59F028C6
 P 2300 14050
 F 0 "TP21" H 2300 14350 50  0001 C BNN
@@ -559,7 +559,7 @@ F 3 "" H 2300 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP40
+L Connector:TestPoint TP40
 U 1 1 59F028C5
 P 11000 13900
 F 0 "TP40" H 11000 14200 50  0001 C BNN
@@ -570,7 +570,7 @@ F 3 "" H 11000 13900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP62
+L Connector:TestPoint TP62
 U 1 1 59F028C4
 P 3200 15800
 F 0 "TP62" H 3200 16100 50  0001 C BNN
@@ -581,7 +581,7 @@ F 3 "" H 3200 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP63
+L Connector:TestPoint TP63
 U 1 1 59F028C3
 P 3650 15800
 F 0 "TP63" H 3650 16100 50  0001 C BNN
@@ -592,7 +592,7 @@ F 3 "" H 3650 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP64
+L Connector:TestPoint TP64
 U 1 1 59F028C2
 P 4150 15800
 F 0 "TP64" H 4150 16100 50  0001 C BNN
@@ -603,7 +603,7 @@ F 3 "" H 4150 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP54
+L Connector:TestPoint TP54
 U 1 1 59F028C1
 P 11000 13100
 F 0 "TP54" H 11000 13400 50  0001 C BNN
@@ -614,7 +614,7 @@ F 3 "" H 11000 13100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST TP8
+L Connector:TestPoint TP8
 U 1 1 59F028CE
 P 18650 3550
 F 0 "TP8" H 18650 3850 50  0001 C BNN
@@ -625,7 +625,7 @@ F 3 "" H 18650 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP7
+L Connector:TestPoint TP7
 U 1 1 59F028BF
 P 18650 3650
 F 0 "TP7" H 18650 3950 50  0001 C BNN
@@ -636,7 +636,7 @@ F 3 "" H 18650 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP39
+L Connector:TestPoint TP39
 U 1 1 59F028CF
 P 1700 15000
 F 0 "TP39" H 1700 15300 50  0001 C BNN
@@ -647,7 +647,7 @@ F 3 "" H 1700 15000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP30
+L Connector:TestPoint TP30
 U 1 1 59F028D0
 P 3900 14450
 F 0 "TP30" H 3900 14750 50  0001 C BNN
@@ -658,7 +658,7 @@ F 3 "" H 3900 14450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP31
+L Connector:TestPoint TP31
 U 1 1 59F028D1
 P 4200 14450
 F 0 "TP31" H 4200 14750 50  0001 C BNN
@@ -669,7 +669,7 @@ F 3 "" H 4200 14450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP16
+L Connector:TestPoint TP16
 U 1 1 59F028D2
 P 3300 13650
 F 0 "TP16" H 3300 13950 50  0001 C BNN
@@ -680,7 +680,7 @@ F 3 "" H 3300 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP57
+L Connector:TestPoint TP57
 U 1 1 59F028D3
 P 2500 15800
 F 0 "TP57" H 2500 16100 50  0001 C BNN
@@ -691,7 +691,7 @@ F 3 "" H 2500 15800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP48
+L Connector:TestPoint TP48
 U 1 1 59F028D4
 P 3200 15400
 F 0 "TP48" H 3200 15700 50  0001 C BNN
@@ -702,7 +702,7 @@ F 3 "" H 3200 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP49
+L Connector:TestPoint TP49
 U 1 1 59F028D5
 P 3400 15400
 F 0 "TP49" H 3400 15700 50  0001 C BNN
@@ -713,7 +713,7 @@ F 3 "" H 3400 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP34
+L Connector:TestPoint TP34
 U 1 1 59F028D6
 P 20250 4400
 F 0 "TP34" H 20250 4700 50  0001 C BNN
@@ -724,7 +724,7 @@ F 3 "" H 20250 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST TP35
+L Connector:TestPoint TP35
 U 1 1 59F028D7
 P 20050 4400
 F 0 "TP35" H 20050 4700 50  0001 C BNN
@@ -735,7 +735,7 @@ F 3 "" H 20050 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST TP2
+L Connector:TestPoint TP2
 U 1 1 59F028D8
 P 4200 12400
 F 0 "TP2" H 4200 12700 50  0001 C BNN
@@ -746,7 +746,7 @@ F 3 "" H 4200 12400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP17
+L Connector:TestPoint TP17
 U 1 1 59F028D9
 P 3550 13650
 F 0 "TP17" H 3550 13950 50  0001 C BNN
@@ -757,7 +757,7 @@ F 3 "" H 3550 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP13
+L Connector:TestPoint TP13
 U 1 1 59F028DA
 P 4200 13250
 F 0 "TP13" H 4200 13550 50  0001 C BNN
@@ -768,7 +768,7 @@ F 3 "" H 4200 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP18
+L Connector:TestPoint TP18
 U 1 1 59F028DB
 P 3800 13650
 F 0 "TP18" H 3800 13950 50  0001 C BNN
@@ -779,7 +779,7 @@ F 3 "" H 3800 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP1
+L Connector:TestPoint TP1
 U 1 1 59F028DC
 P 3850 12400
 F 0 "TP1" H 3850 12700 50  0001 C BNN
@@ -790,7 +790,7 @@ F 3 "" H 3850 12400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP24
+L Connector:TestPoint TP24
 U 1 1 59F028DD
 P 2850 14050
 F 0 "TP24" H 2850 14350 50  0001 C BNN
@@ -801,7 +801,7 @@ F 3 "" H 2850 14050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP60
+L Connector:TestPoint TP60
 U 1 1 59F028DE
 P 2950 15800
 F 0 "TP60" H 2950 16100 50  0001 C BNN
@@ -2361,7 +2361,7 @@ F 3 "" H 12300 350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP65
+L Connector:TestPoint TP65
 U 1 1 59DBC19B
 P 3300 15800
 F 0 "TP65" H 3300 16100 50  0001 C BNN
@@ -3103,7 +3103,7 @@ F 3 "" H 15200 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X14 J7
+L Connector_Generic:Conn_01x14 J7
 U 1 1 59DCB51C
 P 20000 1350
 F 0 "J7" H 20000 2100 50  0000 C CNN
@@ -3141,7 +3141,7 @@ Wire Wire Line
 	19750 900  19800 900 
 Connection ~ 19750 800 
 $Comp
-L CONN_01X02 J6
+L Connector_Generic:Conn_01x02 J6
 U 1 1 59DD0C80
 P 18900 1300
 F 0 "J6" H 18900 1450 50  0000 C CNN

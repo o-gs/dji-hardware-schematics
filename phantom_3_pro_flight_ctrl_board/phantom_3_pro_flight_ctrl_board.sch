@@ -49,7 +49,7 @@ Comment3 "The schematic was not verified for accuracy with real board."
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X20 J8
+L Connector_Generic:Conn_01x20 J8
 U 1 1 58FEFB33
 P 2800 750
 F 0 "J8" H 2800 1800 50  0000 C CNN
@@ -60,7 +60,7 @@ F 3 "" H 2800 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X21 J9
+L Connector_Generic:Conn_01x21 J9
 U 1 1 58FEFD57
 P 5050 7450
 F 0 "J9" H 5050 8550 50  0000 C CNN
@@ -332,7 +332,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 2550 9200 2550
 $Comp
-L TEST TP5
+L Connector:TestPoint TP5
 U 1 1 598A06F8
 P 4750 6950
 F 0 "TP5" H 4750 7250 50  0000 C BNN
@@ -343,7 +343,7 @@ F 3 "" H 4750 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP4
+L Connector:TestPoint TP4
 U 1 1 598A06F9
 P 3950 7050
 F 0 "TP4" H 3950 7350 50  0000 C BNN
@@ -354,7 +354,7 @@ F 3 "" H 3950 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP8
+L Connector:TestPoint TP8
 U 1 1 598A06FA
 P 5950 7000
 F 0 "TP8" H 5950 7300 50  0000 C BNN
@@ -365,7 +365,7 @@ F 3 "" H 5950 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP7
+L Connector:TestPoint TP7
 U 1 1 598A06FB
 P 5850 6800
 F 0 "TP7" H 5850 7100 50  0000 C BNN
@@ -376,7 +376,7 @@ F 3 "" H 5850 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP20
+L Connector:TestPoint TP20
 U 1 1 598A06FC
 P 10800 5750
 F 0 "TP20" H 10800 6050 50  0000 C BNN
@@ -387,7 +387,7 @@ F 3 "" H 10800 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP2
+L Connector:TestPoint TP2
 U 1 1 598A06FD
 P 2550 1450
 F 0 "TP2" H 2550 1750 50  0000 C BNN
@@ -398,7 +398,7 @@ F 3 "" H 2550 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST TP1
+L Connector:TestPoint TP1
 U 1 1 59830F57
 P 2450 1250
 F 0 "TP1" H 2450 1550 50  0000 C BNN
@@ -409,7 +409,7 @@ F 3 "" H 2450 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST TP9
+L Connector:TestPoint TP9
 U 1 1 598A0709
 P 9450 3650
 F 0 "TP9" H 9450 3950 50  0000 C BNN
@@ -420,7 +420,7 @@ F 3 "" H 9450 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP11
+L Connector:TestPoint TP11
 U 1 1 598A0708
 P 9750 3650
 F 0 "TP11" H 9750 3950 50  0000 C BNN
@@ -431,7 +431,7 @@ F 3 "" H 9750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP16
+L Connector:TestPoint TP16
 U 1 1 598A0707
 P 10300 3750
 F 0 "TP16" H 10300 4050 50  0000 C BNN
@@ -442,7 +442,7 @@ F 3 "" H 10300 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP15
+L Connector:TestPoint TP15
 U 1 1 598A0706
 P 10100 3650
 F 0 "TP15" H 10100 3950 50  0000 C BNN
@@ -453,7 +453,7 @@ F 3 "" H 10100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP10
+L Connector:TestPoint TP10
 U 1 1 598A0705
 P 8600 3700
 F 0 "TP10" H 8600 4000 50  0000 C BNN
@@ -464,7 +464,7 @@ F 3 "" H 8600 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP3
+L Connector:TestPoint TP3
 U 1 1 598A0704
 P 3350 6550
 F 0 "TP3" H 3350 6850 50  0000 C BNN
@@ -475,7 +475,7 @@ F 3 "" H 3350 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP14
+L Connector:TestPoint TP14
 U 1 1 598A0703
 P 9100 3700
 F 0 "TP14" H 9100 4000 50  0000 C BNN
@@ -486,7 +486,7 @@ F 3 "" H 9100 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP12
+L Connector:TestPoint TP12
 U 1 1 598A0702
 P 8850 3700
 F 0 "TP12" H 8850 4000 50  0000 C BNN
@@ -497,7 +497,7 @@ F 3 "" H 8850 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP19
+L Connector:TestPoint TP19
 U 1 1 598A0701
 P 10800 3750
 F 0 "TP19" H 10800 4050 50  0000 C BNN
@@ -508,7 +508,7 @@ F 3 "" H 10800 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP13
+L Connector:TestPoint TP13
 U 1 1 598A0700
 P 9950 4700
 F 0 "TP13" H 9950 5000 50  0000 C BNN
@@ -519,7 +519,7 @@ F 3 "" H 9950 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP17
+L Connector:TestPoint TP17
 U 1 1 598A06FF
 P 10550 3650
 F 0 "TP17" H 10550 3950 50  0000 C BNN
@@ -530,7 +530,7 @@ F 3 "" H 10550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP6
+L Connector:TestPoint TP6
 U 1 1 598A06FE
 P 5150 6950
 F 0 "TP6" H 5150 7250 50  0000 C BNN
@@ -541,7 +541,7 @@ F 3 "" H 5150 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP18
+L Connector:TestPoint TP18
 U 1 1 598A06F7
 P 11050 3750
 F 0 "TP18" H 11050 4050 50  0000 C BNN
@@ -1027,7 +1027,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 1400 5200 1400
 $Comp
-L CONN_02X12 J?
+L Connector_Generic:Conn_02X12 J?
 U 1 1 59900046
 P 9700 1250
 F 0 "J?" H 9700 1900 50  0000 C CNN

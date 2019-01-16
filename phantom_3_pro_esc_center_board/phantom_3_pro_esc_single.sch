@@ -2368,7 +2368,7 @@ ESC_RX
 Text HLabel 6900 2800 0    60   Input ~ 0
 ESC_TX
 $Comp
-L TEST TP20
+L Connector:TestPoint TP20
 U 1 1 590A42AE
 P 7000 5950
 AR Path="/58FDD387/590A42AE" Ref="TP20"  Part="1" 
@@ -2383,7 +2383,7 @@ F 3 "" H 7000 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP18
+L Connector:TestPoint TP18
 U 1 1 590A6EE9
 P 7000 5650
 AR Path="/58FDD387/590A6EE9" Ref="TP18"  Part="1" 
@@ -2398,7 +2398,7 @@ F 3 "" H 7000 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP19
+L Connector:TestPoint TP19
 U 1 1 590A6EEF
 P 7000 5800
 AR Path="/58FDD387/590A6EEF" Ref="TP19"  Part="1" 
@@ -2413,7 +2413,7 @@ F 3 "" H 7000 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP21
+L Connector:TestPoint TP21
 U 1 1 590A6EF5
 P 7000 6100
 AR Path="/58FDD387/590A6EF5" Ref="TP21"  Part="1" 
@@ -2428,7 +2428,7 @@ F 3 "" H 7000 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP17
+L Connector:TestPoint TP17
 U 1 1 590A6EFB
 P 7000 5500
 AR Path="/58FDD387/590A6EFB" Ref="TP17"  Part="1" 
@@ -2443,7 +2443,7 @@ F 3 "" H 7000 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP15
+L Connector:TestPoint TP15
 U 1 1 590A73EC
 P 6950 2800
 AR Path="/58FDD387/590A73EC" Ref="TP15"  Part="1" 
@@ -2458,7 +2458,7 @@ F 3 "" H 6950 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP22
+L Connector:TestPoint TP22
 U 1 1 590A73F2
 P 10000 2050
 AR Path="/58FDD387/590A73F2" Ref="TP22"  Part="1" 
@@ -2473,7 +2473,7 @@ F 3 "" H 10000 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP14
+L Connector:TestPoint TP14
 U 1 1 590A73F8
 P 6800 3100
 AR Path="/58FDD387/590A73F8" Ref="TP14"  Part="1" 
@@ -2488,7 +2488,7 @@ F 3 "" H 6800 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP25
+L Connector:TestPoint TP25
 U 1 1 590A73FE
 P 8500 2050
 AR Path="/58FDD387/590A73FE" Ref="TP25"  Part="1" 
@@ -2503,7 +2503,7 @@ F 3 "" H 8500 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP26
+L Connector:TestPoint TP26
 U 1 1 590A7404
 P 10650 4250
 AR Path="/58FDD387/590A7404" Ref="TP26"  Part="1" 
@@ -2518,7 +2518,7 @@ F 3 "" H 10650 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST TP16
+L Connector:TestPoint TP16
 U 1 1 590A740A
 P 6950 6350
 AR Path="/58FDD387/590A740A" Ref="TP16"  Part="1" 
@@ -2533,7 +2533,7 @@ F 3 "" H 6950 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP24
+L Connector:TestPoint TP24
 U 1 1 590A7410
 P 10050 6350
 AR Path="/58FDD387/590A7410" Ref="TP24"  Part="1" 
@@ -2548,7 +2548,7 @@ F 3 "" H 10050 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST TP23
+L Connector:TestPoint TP23
 U 1 1 590A7416
 P 10050 2800
 AR Path="/58FDD387/590A7416" Ref="TP23"  Part="1" 
