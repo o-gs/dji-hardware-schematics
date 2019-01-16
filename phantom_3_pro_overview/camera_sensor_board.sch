@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 5197 5118
 encoding utf-8
@@ -57,7 +19,7 @@ Wire Bus Line
 Text HLabel 1050 2400 0    60   Output ~ 0
 FLAT_TOP
 $Comp
-L IC_PQFP48 U?
+L ic_dil_generic:IC_PQFP48 U?
 U 1 1 5980D40C
 P 3100 1500
 F 0 "U?" H 3100 1400 50  0001 C CNN
@@ -68,7 +30,7 @@ F 3 "DOCUMENTATION" H 3100 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_PQFP_5_3_5_3 U?
+L ic_dil_generic:IC_PQFP_5_3_5_3 U?
 U 1 1 5980DD95
 P 2300 2900
 F 0 "U?" H 2300 2700 50  0001 C CNN
@@ -79,7 +41,7 @@ F 3 "DOCUMENTATION" H 2300 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LD1117S12CTR U?
+L phantom_3_pro_overview-rescue:LD1117S12CTR U?
 U 1 1 5980ED4D
 P 3750 2950
 F 0 "U?" H 3750 3200 50  0001 C CNN

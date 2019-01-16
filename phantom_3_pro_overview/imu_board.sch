@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 5197 4331
 encoding utf-8
@@ -55,7 +17,7 @@ $EndDescr
 Text HLabel 1000 2050 0    60   BiDi ~ 0
 FLAT_FC
 $Comp
-L IC_PQFP32 U?
+L ic_dil_generic:IC_PQFP32 U?
 U 1 1 596E807B
 P 1650 1350
 F 0 "U?" H 1650 1250 50  0001 C CNN

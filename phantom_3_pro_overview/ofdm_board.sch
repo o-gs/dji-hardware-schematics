@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 9449 5276
 encoding utf-8
@@ -65,7 +27,7 @@ ANTENNA3
 Text HLabel 8350 3250 2    60   BiDi ~ 0
 ANTENNA4
 $Comp
-L IC_PQFP32 U?
+L ic_dil_generic:IC_PQFP32 U?
 U 1 1 596EF58E
 P 1400 1300
 F 0 "U?" H 1400 1200 50  0001 C CNN
@@ -76,7 +38,7 @@ F 3 "DOCUMENTATION" H 1400 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_PQFP32 U?
+L ic_dil_generic:IC_PQFP32 U?
 U 1 1 596EF5FD
 P 4600 2700
 F 0 "U?" H 4600 2600 50  0001 C CNN
@@ -87,7 +49,7 @@ F 3 "DOCUMENTATION" H 4600 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AMP U?
+L amplifiers:AMP U?
 U 1 1 596EFDFE
 P 6350 1500
 F 0 "U?" H 6600 1600 50  0001 C CNN
@@ -98,7 +60,7 @@ F 3 "" H 6350 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596F00EB
 P 6250 1200
 F 0 "#PWR?" H 6250 1050 50  0001 C CNN
@@ -109,7 +71,7 @@ F 3 "" H 6250 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596F00FF
 P 6250 1800
 F 0 "#PWR?" H 6250 1550 50  0001 C CNN
@@ -120,7 +82,7 @@ F 3 "" H 6250 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S20 U?
+L transistors-switches:S20 U?
 U 1 1 596FC8A9
 P 6950 2000
 F 0 "U?" H 6850 2325 50  0001 R CNN
@@ -131,7 +93,7 @@ F 3 "" H 7050 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AMP U?
+L amplifiers:AMP U?
 U 1 1 596FC948
 P 5950 2000
 F 0 "U?" H 6200 2100 50  0001 C CNN
@@ -142,7 +104,7 @@ F 3 "" H 5950 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596FC94E
 P 6050 1700
 F 0 "#PWR?" H 6050 1550 50  0001 C CNN
@@ -153,7 +115,7 @@ F 3 "" H 6050 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FC954
 P 6050 2300
 F 0 "#PWR?" H 6050 2050 50  0001 C CNN
@@ -164,7 +126,7 @@ F 3 "" H 6050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S20 U?
+L transistors-switches:S20 U?
 U 1 1 596FCA38
 P 7700 2000
 F 0 "U?" H 7600 2325 50  0001 R CNN
@@ -175,7 +137,7 @@ F 3 "" H 7800 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596FCA54
 P 6650 2300
 F 0 "#PWR?" H 6650 2150 50  0001 C CNN
@@ -186,7 +148,7 @@ F 3 "" H 6650 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596FCA5F
 P 7700 1700
 F 0 "#PWR?" H 7700 1550 50  0001 C CNN
@@ -197,7 +159,7 @@ F 3 "" H 7700 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FCA6A
 P 7050 1600
 F 0 "#PWR?" H 7050 1350 50  0001 C CNN
@@ -208,7 +170,7 @@ F 3 "" H 7050 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FCA75
 P 7700 2300
 F 0 "#PWR?" H 7700 2050 50  0001 C CNN
@@ -223,7 +185,7 @@ Entry Wire Line
 Entry Wire Line
 	8050 2100 8150 2200
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FCB1A
 P 8300 2000
 F 0 "#PWR?" H 8300 1750 50  0001 C CNN
@@ -238,7 +200,7 @@ Entry Wire Line
 Entry Wire Line
 	8150 2100 8250 2200
 $Comp
-L AMP U?
+L amplifiers:AMP U?
 U 1 1 596FD101
 P 6350 2550
 F 0 "U?" H 6600 2650 50  0001 C CNN
@@ -249,7 +211,7 @@ F 3 "" H 6350 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596FD107
 P 6250 2250
 F 0 "#PWR?" H 6250 2100 50  0001 C CNN
@@ -260,7 +222,7 @@ F 3 "" H 6250 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FD10D
 P 6250 2850
 F 0 "#PWR?" H 6250 2600 50  0001 C CNN
@@ -271,7 +233,7 @@ F 3 "" H 6250 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S20 U?
+L transistors-switches:S20 U?
 U 1 1 596FD113
 P 6950 3050
 F 0 "U?" H 6850 3375 50  0001 R CNN
@@ -282,7 +244,7 @@ F 3 "" H 7050 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AMP U?
+L amplifiers:AMP U?
 U 1 1 596FD119
 P 5950 3050
 F 0 "U?" H 6200 3150 50  0001 C CNN
@@ -293,7 +255,7 @@ F 3 "" H 5950 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596FD11F
 P 6050 2750
 F 0 "#PWR?" H 6050 2600 50  0001 C CNN
@@ -304,7 +266,7 @@ F 3 "" H 6050 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FD125
 P 6050 3350
 F 0 "#PWR?" H 6050 3100 50  0001 C CNN
@@ -315,7 +277,7 @@ F 3 "" H 6050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L S20 U?
+L transistors-switches:S20 U?
 U 1 1 596FD12D
 P 7700 3050
 F 0 "U?" H 7600 3375 50  0001 R CNN
@@ -326,7 +288,7 @@ F 3 "" H 7800 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596FD133
 P 6650 3350
 F 0 "#PWR?" H 6650 3200 50  0001 C CNN
@@ -337,7 +299,7 @@ F 3 "" H 6650 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596FD139
 P 7700 2750
 F 0 "#PWR?" H 7700 2600 50  0001 C CNN
@@ -348,7 +310,7 @@ F 3 "" H 7700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FD13F
 P 7050 2650
 F 0 "#PWR?" H 7050 2400 50  0001 C CNN
@@ -359,7 +321,7 @@ F 3 "" H 7050 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FD145
 P 7700 3350
 F 0 "#PWR?" H 7700 3100 50  0001 C CNN
@@ -374,7 +336,7 @@ Entry Wire Line
 Entry Wire Line
 	8050 3150 8150 3250
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596FD153
 P 8300 3050
 F 0 "#PWR?" H 8300 2800 50  0001 C CNN
@@ -389,7 +351,7 @@ Entry Wire Line
 Entry Wire Line
 	8150 3150 8250 3250
 $Comp
-L IC_DIL16 U?
+L ic_dil_generic:IC_DIL16 U?
 U 1 1 596FEAF5
 P 1250 2700
 F 0 "U?" H 1250 2600 50  0001 C CNN
@@ -806,7 +768,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 2150 4950 2100
 $Comp
-L IC_PQFP48 U?
+L ic_dil_generic:IC_PQFP48 U?
 U 1 1 59703C40
 P 2850 2550
 F 0 "U?" H 2850 2450 50  0001 C CNN

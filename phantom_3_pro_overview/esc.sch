@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 7402 4725
 encoding utf-8
@@ -59,7 +21,7 @@ MOTOR
 Text HLabel 1250 1300 0    60   BiDi ~ 0
 CONTROL
 $Comp
-L IC_DIL32 U?
+L ic_dil_generic:IC_DIL32 U?
 U 1 1 596D4343
 P 3600 1600
 AR Path="/596D582B/596D4343" Ref="U?"  Part="1" 
@@ -72,11 +34,12 @@ F 3 "3-Ph Motor Drv" H 3600 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q?
+L phantom_3_pro_overview-rescue:BSS138 Q?
 U 1 1 596D44EF
 P 4800 1600
 AR Path="/596D582B/596D44EF" Ref="Q?"  Part="1" 
 AR Path="/596D6DC3/596D44EF" Ref="Q?"  Part="1" 
+AR Path="/596D44EF" Ref="Q?"  Part="1" 
 F 0 "Q?" H 5000 1675 50  0001 L CNN
 F 1 "AON6504" H 5000 1600 50  0001 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5000 1525 50  0001 L CIN
@@ -89,7 +52,7 @@ Entry Wire Line
 Entry Wire Line
 	1100 2100 1200 2000
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596D4634
 P 1150 2250
 AR Path="/596D582B/596D4634" Ref="#PWR?"  Part="1" 
@@ -102,7 +65,7 @@ F 3 "" H 1150 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 596D464C
 P 1200 1950
 AR Path="/596D582B/596D464C" Ref="#PWR?"  Part="1" 
@@ -115,11 +78,12 @@ F 3 "" H 1200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q?
+L phantom_3_pro_overview-rescue:BSS138 Q?
 U 1 1 596D493A
 P 4800 2000
 AR Path="/596D582B/596D493A" Ref="Q?"  Part="1" 
 AR Path="/596D6DC3/596D493A" Ref="Q?"  Part="1" 
+AR Path="/596D493A" Ref="Q?"  Part="1" 
 F 0 "Q?" H 5000 2075 50  0001 L CNN
 F 1 "AON6504" H 5000 2000 50  0001 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5000 1925 50  0001 L CIN
@@ -128,7 +92,7 @@ F 3 "N-Ch MOS" H 5000 1900 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 596D495A
 P 4900 1400
 AR Path="/596D582B/596D495A" Ref="#PWR?"  Part="1" 
@@ -141,7 +105,7 @@ F 3 "" H 4900 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596D496E
 P 4900 2200
 AR Path="/596D582B/596D496E" Ref="#PWR?"  Part="1" 
@@ -154,11 +118,12 @@ F 3 "" H 4900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q?
+L phantom_3_pro_overview-rescue:BSS138 Q?
 U 1 1 596D4994
 P 5400 1600
 AR Path="/596D582B/596D4994" Ref="Q?"  Part="1" 
 AR Path="/596D6DC3/596D4994" Ref="Q?"  Part="1" 
+AR Path="/596D4994" Ref="Q?"  Part="1" 
 F 0 "Q?" H 5600 1675 50  0001 L CNN
 F 1 "AON6504" H 5600 1600 50  0001 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5600 1525 50  0001 L CIN
@@ -167,11 +132,12 @@ F 3 "N-Ch MOS" H 5600 1500 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q?
+L phantom_3_pro_overview-rescue:BSS138 Q?
 U 1 1 596D499A
 P 5400 2000
 AR Path="/596D582B/596D499A" Ref="Q?"  Part="1" 
 AR Path="/596D6DC3/596D499A" Ref="Q?"  Part="1" 
+AR Path="/596D499A" Ref="Q?"  Part="1" 
 F 0 "Q?" H 5600 2075 50  0001 L CNN
 F 1 "AON6504" H 5600 2000 50  0001 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5600 1925 50  0001 L CIN
@@ -180,7 +146,7 @@ F 3 "N-Ch MOS" H 5600 1900 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 596D49A0
 P 5500 1400
 AR Path="/596D582B/596D49A0" Ref="#PWR?"  Part="1" 
@@ -193,7 +159,7 @@ F 3 "" H 5500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596D49A6
 P 5500 2200
 AR Path="/596D582B/596D49A6" Ref="#PWR?"  Part="1" 
@@ -206,11 +172,12 @@ F 3 "" H 5500 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q?
+L phantom_3_pro_overview-rescue:BSS138 Q?
 U 1 1 596D49AC
 P 6000 1600
 AR Path="/596D582B/596D49AC" Ref="Q?"  Part="1" 
 AR Path="/596D6DC3/596D49AC" Ref="Q?"  Part="1" 
+AR Path="/596D49AC" Ref="Q?"  Part="1" 
 F 0 "Q?" H 6200 1675 50  0001 L CNN
 F 1 "AON6504" H 6200 1600 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6200 1525 50  0001 L CIN
@@ -219,11 +186,12 @@ F 3 "N-Ch MOS" H 6200 1500 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BSS138 Q?
+L phantom_3_pro_overview-rescue:BSS138 Q?
 U 1 1 596D49B2
 P 6000 2000
 AR Path="/596D582B/596D49B2" Ref="Q?"  Part="1" 
 AR Path="/596D6DC3/596D49B2" Ref="Q?"  Part="1" 
+AR Path="/596D49B2" Ref="Q?"  Part="1" 
 F 0 "Q?" H 6200 2075 50  0001 L CNN
 F 1 "AON6504" H 6200 2000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 6200 1925 50  0001 L CIN
@@ -232,7 +200,7 @@ F 3 "N-Ch MOS" H 6200 1900 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 596D49B8
 P 6100 1400
 AR Path="/596D582B/596D49B8" Ref="#PWR?"  Part="1" 
@@ -245,7 +213,7 @@ F 3 "" H 6100 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596D49BE
 P 6100 2200
 AR Path="/596D582B/596D49BE" Ref="#PWR?"  Part="1" 
@@ -366,7 +334,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 950  4200 950 
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596D4DE1
 P 4200 2350
 AR Path="/596D582B/596D4DE1" Ref="#PWR?"  Part="1" 
@@ -379,7 +347,7 @@ F 3 "" H 4200 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 596D4DF5
 P 3050 850
 AR Path="/596D582B/596D4DF5" Ref="#PWR?"  Part="1" 
@@ -547,10 +515,6 @@ Wire Wire Line
 	1400 2100 1450 2100
 Wire Wire Line
 	1450 2200 1400 2200
-Wire Bus Line
-	1000 2100 1150 2100
-Wire Bus Line
-	4300 950  4300 2400
 Entry Bus Bus
 	1300 2450 1400 2550
 Entry Bus Bus
@@ -561,18 +525,12 @@ Wire Wire Line
 	5050 1800 4900 1800
 Entry Bus Bus
 	4300 2400 4400 2500
-Wire Bus Line
-	4400 2500 5900 2500
-Wire Bus Line
-	5150 1150 5750 1150
-Wire Bus Line
-	5600 1150 6400 1150
 Wire Wire Line
 	1200 1950 1200 2000
 Wire Wire Line
 	1150 2200 1150 2250
 $Comp
-L IC_PQFP32 U?
+L ic_dil_generic:IC_PQFP32 U?
 U 1 1 596DC297
 P 2000 1850
 AR Path="/596D582B/596DC297" Ref="U?"  Part="1" 
@@ -621,15 +579,23 @@ Entry Bus Bus
 Wire Wire Line
 	1450 1800 1400 1800
 Wire Bus Line
-	1300 1600 1300 1300
+	1000 2100 1150 2100
 Wire Bus Line
-	2900 2450 2900 1050
+	1300 1300 1300 1600
+Wire Bus Line
+	5150 1150 6400 1150
+Wire Bus Line
+	1300 1900 1300 2450
+Wire Bus Line
+	4400 2500 5900 2500
 Wire Bus Line
 	1400 2550 2800 2550
 Wire Bus Line
-	2600 1150 1750 1150
+	1750 1150 2600 1150
 Wire Bus Line
 	2700 1250 2700 2450
 Wire Bus Line
-	1300 1900 1300 2450
+	4300 950  4300 2400
+Wire Bus Line
+	2900 1050 2900 2450
 $EndSCHEMATC

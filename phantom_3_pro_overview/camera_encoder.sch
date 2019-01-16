@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 5906 5315
 encoding utf-8
@@ -57,7 +19,7 @@ RIBBON_OFDM
 Text HLabel 1900 800  0    60   Input ~ 0
 FLAT_CAMERA
 $Comp
-L IC_PQFP32 U?
+L ic_dil_generic:IC_PQFP32 U?
 U 1 1 597C8092
 P 2450 1500
 F 0 "U?" H 2450 1400 50  0001 C CNN
@@ -68,7 +30,7 @@ F 3 "w/  2xARM and DSP" H 2450 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro_SD_Card J?
+L Connector:Micro_SD_Card J?
 U 1 1 597C8098
 P 4450 1150
 F 0 "J?" H 3800 1750 50  0001 C CNN
@@ -79,7 +41,7 @@ F 3 "" H 4450 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 597C809E
 P 5250 1750
 F 0 "#PWR?" H 5250 1500 50  0001 C CNN
@@ -170,7 +132,7 @@ Entry Wire Line
 Entry Wire Line
 	1850 1150 1750 1050
 $Comp
-L VDD #PWR?
+L power:VDD #PWR?
 U 1 1 597C80CC
 P 3300 1150
 F 0 "#PWR?" H 3300 1000 50  0001 C CNN
@@ -181,7 +143,7 @@ F 3 "" H 3300 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 597C80D2
 P 3300 1450
 F 0 "#PWR?" H 3300 1200 50  0001 C CNN
@@ -192,7 +154,7 @@ F 3 "" H 3300 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_DIL16 U?
+L ic_dil_generic:IC_DIL16 U?
 U 1 1 597C810B
 P 2450 3000
 F 0 "U?" H 2450 2750 50  0001 C CNN
@@ -235,7 +197,7 @@ Entry Wire Line
 Entry Wire Line
 	2900 2650 3000 2550
 $Comp
-L IC_DIL10 U?
+L ic_dil_generic:IC_DIL10 U?
 U 1 1 597C8C07
 P 3800 3000
 F 0 "U?" H 3800 2900 50  0001 C CNN
@@ -270,7 +232,7 @@ Entry Wire Line
 Entry Wire Line
 	3250 2900 3350 2800
 $Comp
-L IC_DIL10 U?
+L ic_dil_generic:IC_DIL10 U?
 U 1 1 597C8ED7
 P 1100 3000
 F 0 "U?" H 1100 2900 50  0001 C CNN
@@ -305,7 +267,7 @@ Entry Wire Line
 Entry Wire Line
 	1650 2900 1550 2800
 $Comp
-L IC_DIL10 U?
+L ic_dil_generic:IC_DIL10 U?
 U 1 1 597C8FED
 P 3700 2150
 F 0 "U?" H 3700 2050 50  0001 C CNN
@@ -336,7 +298,7 @@ Entry Wire Line
 Entry Wire Line
 	3150 2050 3250 1950
 $Comp
-L IC_DIL10 U?
+L ic_dil_generic:IC_DIL10 U?
 U 1 1 597C926F
 P 1100 2150
 F 0 "U?" H 1100 2050 50  0001 C CNN
@@ -445,10 +407,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 1850 1900 1850
 Wire Bus Line
-	3400 800  3400 1650
-Wire Bus Line
-	1900 800  2700 800 
-Wire Bus Line
 	3250 700  3300 700 
 Wire Wire Line
 	3550 1150 3550 1200
@@ -462,8 +420,6 @@ Wire Wire Line
 	3550 1400 3300 1400
 Wire Wire Line
 	3300 1400 3300 1450
-Wire Bus Line
-	1900 2350 1900 2850
 Wire Wire Line
 	2000 2650 2050 2650
 Wire Wire Line
@@ -497,8 +453,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 2650 2850 2650
 Wire Bus Line
-	3250 2900 3250 3400
-Wire Bus Line
 	3100 3500 3150 3500
 Wire Wire Line
 	4200 2800 4250 2800
@@ -521,15 +475,9 @@ Wire Wire Line
 Wire Wire Line
 	3400 3200 3350 3200
 Wire Bus Line
-	4350 2900 4350 3400
-Wire Bus Line
 	4350 3400 3250 3400
 Wire Bus Line
-	3000 2550 3000 2850
-Wire Bus Line
-	3000 2950 3000 3400
-Wire Bus Line
-	1650 2900 1650 3400
+	3000 2550 3000 2650
 Wire Bus Line
 	1800 3500 1750 3500
 Wire Wire Line
@@ -553,13 +501,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 3200 1550 3200
 Wire Bus Line
-	550  2900 550  3400
-Wire Bus Line
 	550  3400 1650 3400
-Wire Bus Line
-	1900 2950 1900 3400
-Wire Bus Line
-	3150 1650 3150 2550
 Wire Wire Line
 	4100 1950 4150 1950
 Wire Wire Line
@@ -581,15 +523,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 2350 3250 2350
 Wire Bus Line
-	4250 2050 4250 2550
-Wire Bus Line
 	4250 2550 3150 2550
 Wire Bus Line
-	3150 800  3150 1550
-Wire Bus Line
 	3000 2650 4550 2650
-Wire Bus Line
-	1650 1650 1650 2550
 Wire Wire Line
 	700  1950 650  1950
 Wire Wire Line
@@ -611,11 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 2350 1550 2350
 Wire Bus Line
-	550  2050 550  2550
-Wire Bus Line
 	550  2550 1650 2550
-Wire Bus Line
-	2000 2250 2700 2250
 Wire Bus Line
 	1500 700  600  700 
 Text Label 600  700  0    60   ~ 0
@@ -629,7 +561,7 @@ Wire Bus Line
 Wire Bus Line
 	1500 550  1500 700 
 $Comp
-L USB_OTG J?
+L Connector:USB_OTG J?
 U 1 1 5A25C2C9
 P 950 1250
 F 0 "J?" H 750 1700 50  0001 L CNN
@@ -655,14 +587,12 @@ Wire Wire Line
 	1250 1250 1300 1250
 Wire Wire Line
 	1250 1050 1300 1050
-Wire Bus Line
-	1750 1050 1750 1350
 Entry Bus Bus
 	1400 1050 1500 950 
 Wire Bus Line
 	1650 950  1500 950 
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5A25CB22
 P 950 1650
 F 0 "#PWR?" H 950 1400 50  0001 C CNN
@@ -672,8 +602,40 @@ F 3 "" H 950 1650 50  0001 C CNN
 	1    950  1650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	850  1650 950  1650
 Wire Bus Line
-	1400 1350 1400 1050
+	1750 1050 1750 1350
+Wire Bus Line
+	3000 2650 3000 2850
+Wire Bus Line
+	1400 1050 1400 1350
+Wire Bus Line
+	1900 2350 1900 2850
+Wire Bus Line
+	3000 2950 3000 3400
+Wire Bus Line
+	1900 2950 1900 3400
+Wire Bus Line
+	3150 800  3150 1550
+Wire Bus Line
+	3400 800  3400 1650
+Wire Bus Line
+	2000 2250 2700 2250
+Wire Bus Line
+	4350 2900 4350 3400
+Wire Bus Line
+	3250 2900 3250 3400
+Wire Bus Line
+	550  2900 550  3400
+Wire Bus Line
+	1650 2900 1650 3400
+Wire Bus Line
+	4250 2050 4250 2550
+Wire Bus Line
+	550  2050 550  2550
+Wire Bus Line
+	1900 800  2700 800 
+Wire Bus Line
+	3150 1650 3150 2550
+Wire Bus Line
+	1650 1650 1650 2550
 $EndSCHEMATC

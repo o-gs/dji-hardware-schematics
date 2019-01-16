@@ -1,48 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 5197 4724
 encoding utf-8
-Sheet 20 24
+Sheet 21 24
 Title "Overview of the Phantom 3 Pro Gimbal Arm Driver"
 Date ""
 Rev ""
@@ -57,11 +19,12 @@ FLAT_TOP
 Text HLabel 4300 650  3    60   Output ~ 0
 FLAT_MOTOR
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 5971121C
 P 4100 950
 AR Path="/596E86D9/5971121C" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/5971121C" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/5971121C" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4100 800 50  0001 C CNN
 F 1 "+BATT" H 4100 1090 50  0000 C CNN
 F 2 "" H 4100 950 50  0001 C CNN
@@ -70,11 +33,12 @@ F 3 "" H 4100 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59711222
 P 4100 1600
 AR Path="/596E86D9/59711222" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/59711222" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/59711222" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4100 1350 50  0001 C CNN
 F 1 "GND" H 4100 1450 50  0000 C CNN
 F 2 "" H 4100 1600 50  0001 C CNN
@@ -85,11 +49,12 @@ $EndComp
 Entry Wire Line
 	4150 700  4250 600 
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5971125E
 P 2650 2650
 AR Path="/596E86D9/5971125E" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/5971125E" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/5971125E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2650 2400 50  0001 C CNN
 F 1 "GND" H 2650 2500 50  0000 C CNN
 F 2 "" H 2650 2650 50  0001 C CNN
@@ -98,11 +63,12 @@ F 3 "" H 2650 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 59711264
 P 2450 1850
 AR Path="/596E86D9/59711264" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/59711264" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/59711264" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2450 1700 50  0001 C CNN
 F 1 "+BATT" H 2450 1990 50  0000 C CNN
 F 2 "" H 2450 1850 50  0001 C CNN
@@ -161,11 +127,12 @@ Entry Bus Bus
 Entry Bus Bus
 	2000 2750 2100 2850
 $Comp
-L IC_PQFP32 U?
+L ic_dil_generic:IC_PQFP32 U?
 U 1 1 597112C4
 P 1300 2150
 AR Path="/596E86D9/597112C4" Ref="U?"  Part="1" 
 AR Path="/596C09CC/597112C4" Ref="U?"  Part="1" 
+AR Path="/596E82ED/597112C4" Ref="U?"  Part="1" 
 F 0 "U?" H 1300 2050 50  0001 C CNN
 F 1 "dsPIC33 EP32" H 1300 2250 50  0000 C CNN
 F 2 "motor control sw" H 1300 2050 50  0000 C CNN
@@ -192,11 +159,12 @@ Entry Wire Line
 Entry Bus Bus
 	1900 1450 2000 1550
 $Comp
-L AON7804-align1 Q?
+L transistors-power:AON7804-align1 Q?
 U 1 1 59714F5F
 P 3900 1250
 AR Path="/596E86D9/59714F5F" Ref="Q?"  Part="1" 
 AR Path="/596C09CC/59714F5F" Ref="Q?"  Part="1" 
+AR Path="/596E82ED/59714F5F" Ref="Q?"  Part="1" 
 F 0 "Q?" H 3650 1025 50  0001 L CNN
 F 1 "AON7804" H 3700 1000 50  0000 L CNN
 F 2 "Dual N-Ch MOSFET" H 3700 950 50  0000 L CIN
@@ -205,7 +173,7 @@ F 3 "" H 3875 1125 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 59716694
 P 3450 950
 F 0 "#PWR?" H 3450 800 50  0001 C CNN
@@ -216,7 +184,7 @@ F 3 "" H 3450 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 5971669A
 P 3450 1600
 F 0 "#PWR?" H 3450 1350 50  0001 C CNN
@@ -229,7 +197,7 @@ $EndComp
 Entry Wire Line
 	3500 700  3600 600 
 $Comp
-L AON7804-align1 Q?
+L transistors-power:AON7804-align1 Q?
 U 1 1 597166A6
 P 3250 1250
 F 0 "Q?" H 3000 1025 50  0001 L CNN
@@ -240,7 +208,7 @@ F 3 "" H 3225 1125 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 597166B3
 P 2800 950
 F 0 "#PWR?" H 2800 800 50  0001 C CNN
@@ -251,7 +219,7 @@ F 3 "" H 2800 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 597166B9
 P 2800 1600
 F 0 "#PWR?" H 2800 1350 50  0001 C CNN
@@ -264,7 +232,7 @@ $EndComp
 Entry Wire Line
 	2850 700  2950 600 
 $Comp
-L AON7804-align1 Q?
+L transistors-power:AON7804-align1 Q?
 U 1 1 597166C5
 P 2600 1250
 F 0 "Q?" H 2350 1025 50  0001 L CNN
@@ -275,11 +243,12 @@ F 3 "" H 2575 1125 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_DIL10 U?
+L ic_dil_generic:IC_DIL10 U?
 U 1 1 59716CA5
 P 2450 2250
 AR Path="/596E86D9/59716CA5" Ref="U?"  Part="1" 
 AR Path="/596C09CC/59716CA5" Ref="U?"  Part="1" 
+AR Path="/596E82ED/59716CA5" Ref="U?"  Part="1" 
 F 0 "U?" H 2450 2150 50  0001 C CNN
 F 1 "MP1907" H 2450 2350 50  0000 C CNN
 F 2 "Half-bridge" H 2450 2250 50  0000 C CNN
@@ -339,8 +308,6 @@ Wire Wire Line
 	700  2400 750  2400
 Wire Wire Line
 	750  2500 700  2500
-Wire Bus Line
-	2950 600  4300 600 
 Wire Wire Line
 	950  2700 950  2750
 Wire Wire Line
@@ -359,18 +326,10 @@ Wire Wire Line
 	1650 2750 1650 2700
 Wire Wire Line
 	750  2100 700  2100
-Wire Bus Line
-	700  2850 3750 2850
-Wire Bus Line
-	1150 1450 1900 1450
-Wire Bus Line
-	2000 1550 2000 2750
-Wire Bus Line
-	600  1800 600  2750
 Wire Wire Line
 	4100 1050 4100 950 
 Wire Wire Line
-	4100 1200 4100 1300
+	4100 1200 4100 1250
 Wire Wire Line
 	4100 1450 4100 1600
 Wire Wire Line
@@ -387,7 +346,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 1050 3450 950 
 Wire Wire Line
-	3450 1200 3450 1300
+	3450 1200 3450 1250
 Wire Wire Line
 	3450 1450 3450 1600
 Wire Wire Line
@@ -404,7 +363,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1050 2800 950 
 Wire Wire Line
-	2800 1200 2800 1300
+	2800 1200 2800 1250
 Wire Wire Line
 	2800 1450 2800 1600
 Wire Wire Line
@@ -413,11 +372,12 @@ Connection ~ 2800 1250
 Wire Wire Line
 	2250 1150 2350 1150
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 597170ED
 P 3300 2650
 AR Path="/596E86D9/597170ED" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/597170ED" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/597170ED" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3300 2400 50  0001 C CNN
 F 1 "GND" H 3300 2500 50  0000 C CNN
 F 2 "" H 3300 2650 50  0001 C CNN
@@ -426,7 +386,7 @@ F 3 "" H 3300 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_DIL10 U?
+L ic_dil_generic:IC_DIL10 U?
 U 1 1 597170F3
 P 3100 2250
 F 0 "U?" H 3100 2150 50  0001 C CNN
@@ -437,11 +397,12 @@ F 3 "gate driver" H 3100 2150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 597170F9
 P 3950 2650
 AR Path="/596E86D9/597170F9" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/597170F9" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/597170F9" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3950 2400 50  0001 C CNN
 F 1 "GND" H 3950 2500 50  0000 C CNN
 F 2 "" H 3950 2650 50  0001 C CNN
@@ -450,7 +411,7 @@ F 3 "" H 3950 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_DIL10 U?
+L ic_dil_generic:IC_DIL10 U?
 U 1 1 597170FF
 P 3750 2250
 F 0 "U?" H 3750 2150 50  0001 C CNN
@@ -461,11 +422,12 @@ F 3 "gate driver" H 3750 2150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 59717111
 P 3100 1850
 AR Path="/596E86D9/59717111" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/59717111" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/59717111" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3100 1700 50  0001 C CNN
 F 1 "+BATT" H 3100 1990 50  0000 C CNN
 F 2 "" H 3100 1850 50  0001 C CNN
@@ -474,11 +436,12 @@ F 3 "" H 3100 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 59717125
 P 3750 1850
 AR Path="/596E86D9/59717125" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/59717125" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/59717125" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3750 1700 50  0001 C CNN
 F 1 "+BATT" H 3750 1990 50  0000 C CNN
 F 2 "" H 3750 1850 50  0001 C CNN
@@ -525,11 +488,12 @@ Wire Wire Line
 Wire Bus Line
 	4300 600  4300 650 
 $Comp
-L POT RV?
+L Device:R_POT RV?
 U 1 1 59717774
 P 1350 1000
 AR Path="/596E86D9/59717774" Ref="RV?"  Part="1" 
 AR Path="/596C09CC/59717774" Ref="RV?"  Part="1" 
+AR Path="/596E82ED/59717774" Ref="RV?"  Part="1" 
 F 0 "RV?" V 1175 1000 50  0001 C CNN
 F 1 "Potentiometer" V 1200 1000 50  0000 C CNN
 F 2 "Motor_Pos_Sense" V 1150 1000 50  0000 C CNN
@@ -538,11 +502,12 @@ F 3 "" H 1350 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +BATT #PWR?
+L power:+BATT #PWR?
 U 1 1 5971780C
 P 1350 850
 AR Path="/596E86D9/5971780C" Ref="#PWR?"  Part="1" 
 AR Path="/596C09CC/5971780C" Ref="#PWR?"  Part="1" 
+AR Path="/596E82ED/5971780C" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1350 700 50  0001 C CNN
 F 1 "+BATT" H 1350 990 50  0000 C CNN
 F 2 "" H 1350 850 50  0001 C CNN
@@ -551,7 +516,7 @@ F 3 "" H 1350 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59717821
 P 1350 1150
 F 0 "#PWR?" H 1350 900 50  0001 C CNN
@@ -563,4 +528,20 @@ F 3 "" H 1350 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  1000 1200 1000
+Wire Wire Line
+	4100 1250 4100 1300
+Wire Wire Line
+	3450 1250 3450 1300
+Wire Wire Line
+	2800 1250 2800 1300
+Wire Bus Line
+	2950 600  4300 600 
+Wire Bus Line
+	1150 1450 1900 1450
+Wire Bus Line
+	600  1800 600  2750
+Wire Bus Line
+	2000 1550 2000 2750
+Wire Bus Line
+	700  2850 3750 2850
 $EndSCHEMATC

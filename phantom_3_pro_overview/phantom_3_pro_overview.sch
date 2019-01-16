@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 6614 8268
 encoding utf-8
@@ -250,7 +212,7 @@ F1 "camera_sensor_board.sch" 60
 F2 "FLAT_TOP" O R 2900 6300 60 
 $EndSheet
 $Comp
-L Brushless_Motor_3phase_seri M3
+L motors:Brushless_Motor_3phase_seri M3
 U 1 1 596D3599
 P 5850 1700
 F 0 "M3" V 5650 1450 50  0000 L CNN
@@ -261,7 +223,7 @@ F 3 "" H 5860 1690 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Brushless_Motor_3phase_seri M4
+L motors:Brushless_Motor_3phase_seri M4
 U 1 1 596D448E
 P 5850 2150
 F 0 "M4" V 6050 1900 50  0000 L CNN
@@ -284,7 +246,7 @@ Entry Wire Line
 Entry Wire Line
 	5400 2150 5500 2050
 $Comp
-L Brushless_Motor_3phase_seri M2
+L motors:Brushless_Motor_3phase_seri M2
 U 1 1 596DA48B
 P 750 2150
 F 0 "M2" V 550 1900 50  0000 L CNN
@@ -295,7 +257,7 @@ F 3 "" H 760 2140 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Brushless_Motor_3phase_seri M1
+L motors:Brushless_Motor_3phase_seri M1
 U 1 1 596DA491
 P 750 1700
 F 0 "M1" V 950 1450 50  0000 L CNN
@@ -364,7 +326,7 @@ Entry Wire Line
 Entry Wire Line
 	1450 4650 1350 4550
 $Comp
-L Antenna_Shield AE1
+L Device:Antenna_Shield AE1
 U 1 1 597138C4
 P 5600 4950
 F 0 "AE1" V 5650 5050 50  0000 R CNN
@@ -379,7 +341,7 @@ Entry Wire Line
 Entry Wire Line
 	5250 4950 5350 5050
 $Comp
-L Antenna_Shield AE2
+L Device:Antenna_Shield AE2
 U 1 1 5971A63C
 P 5600 5150
 F 0 "AE2" V 5650 5250 50  0000 R CNN
@@ -394,7 +356,7 @@ Entry Wire Line
 Entry Wire Line
 	5250 5150 5350 5250
 $Comp
-L Antenna_Shield AE3
+L Device:Antenna_Shield AE3
 U 1 1 5971A803
 P 5600 5350
 F 0 "AE3" V 5650 5450 50  0000 R CNN
@@ -409,7 +371,7 @@ Entry Wire Line
 Entry Wire Line
 	5250 5350 5350 5450
 $Comp
-L Antenna_Shield AE4
+L Device:Antenna_Shield AE4
 U 1 1 5971A80E
 P 5600 5550
 F 0 "AE4" V 5650 5650 50  0000 R CNN
@@ -432,7 +394,7 @@ Entry Bus Bus
 Entry Bus Bus
 	4100 4550 4200 4650
 $Comp
-L Motor_Servo_3Ph M_yaw
+L motors:Motor_Servo_3Ph M_yaw
 U 1 1 59719EE0
 P 1000 4650
 F 0 "M_yaw" H 800 4825 50  0000 L CNN
@@ -443,7 +405,7 @@ F 3 "" H 1000 4460 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Motor_Servo_3Ph M_roll
+L motors:Motor_Servo_3Ph M_roll
 U 1 1 5971A5AD
 P 1000 5200
 F 0 "M_roll" H 800 5375 50  0000 L CNN
@@ -454,7 +416,7 @@ F 3 "" H 1000 5010 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Motor_Servo_3Ph M_pitch
+L motors:Motor_Servo_3Ph M_pitch
 U 1 1 5971A85D
 P 1000 5650
 F 0 "M_pitch" H 800 5825 50  0000 L CNN
@@ -635,15 +597,7 @@ Wire Bus Line
 Wire Bus Line
 	4350 3300 4450 3300
 Wire Bus Line
-	4250 3000 4250 3200
-Wire Bus Line
-	4250 3200 4250 3600
-Wire Bus Line
 	2400 2500 2400 2900
-Wire Bus Line
-	2400 2900 4000 2900
-Wire Bus Line
-	4000 2900 4150 2900
 Wire Bus Line
 	1800 4400 1750 4400
 Wire Bus Line
@@ -664,12 +618,6 @@ Wire Bus Line
 	5500 2950 5500 4250
 Wire Bus Line
 	1550 2900 2300 2900
-Wire Bus Line
-	1450 5650 1450 5750
-Wire Bus Line
-	1450 5750 1450 5850
-Wire Bus Line
-	1450 5850 1450 5900
 Wire Wire Line
 	1350 5750 1300 5750
 Wire Wire Line
@@ -678,12 +626,6 @@ Wire Wire Line
 	1350 5550 1300 5550
 Wire Bus Line
 	1450 5900 1650 5900
-Wire Bus Line
-	1450 5200 1450 5300
-Wire Bus Line
-	1450 5300 1450 5400
-Wire Bus Line
-	1450 5400 1450 5450
 Wire Wire Line
 	1350 5300 1300 5300
 Wire Wire Line
@@ -692,12 +634,6 @@ Wire Wire Line
 	1350 5100 1300 5100
 Wire Bus Line
 	1450 5450 1650 5450
-Wire Bus Line
-	1450 4650 1450 4750
-Wire Bus Line
-	1450 4750 1450 4850
-Wire Bus Line
-	1450 4850 1450 4900
 Wire Wire Line
 	1350 4750 1300 4750
 Wire Wire Line
@@ -745,20 +681,6 @@ Wire Bus Line
 Wire Bus Line
 	2800 3900 3050 3900
 Wire Bus Line
-	3150 4000 3150 4600
-Wire Bus Line
-	3150 4600 3150 4900
-Wire Bus Line
-	3150 4900 3150 5350
-Wire Bus Line
-	3150 5350 3150 5800
-Wire Bus Line
-	3150 5800 3150 6200
-Wire Bus Line
-	3300 3800 3300 4400
-Wire Bus Line
-	3300 4400 3300 4650
-Wire Bus Line
 	4350 4650 4200 4650
 Wire Bus Line
 	3400 4750 4350 4750
@@ -767,13 +689,25 @@ Wire Bus Line
 Wire Bus Line
 	1800 3350 1750 3350
 Wire Bus Line
-	1650 3450 1650 3700
-Wire Bus Line
-	1650 3700 1650 4300
-Wire Bus Line
 	1800 3800 1750 3800
 Wire Bus Line
 	1550 3250 1800 3250
 Wire Bus Line
 	3200 4300 2800 4300
+Wire Bus Line
+	4250 3000 4250 3600
+Wire Bus Line
+	2400 2900 4150 2900
+Wire Bus Line
+	3300 3800 3300 4650
+Wire Bus Line
+	1650 3450 1650 4300
+Wire Bus Line
+	1450 5650 1450 5900
+Wire Bus Line
+	1450 5200 1450 5450
+Wire Bus Line
+	1450 4650 1450 4900
+Wire Bus Line
+	3150 4000 3150 6200
 $EndSCHEMATC

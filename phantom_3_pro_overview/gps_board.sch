@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 5197 4000
 encoding utf-8
@@ -55,7 +17,7 @@ $EndDescr
 Text HLabel 1100 1200 1    60   BiDi ~ 0
 RIB_CENTER
 $Comp
-L Antenna_Shield AE?
+L Device:Antenna_Shield AE?
 U 1 1 596E99A2
 P 4100 800
 F 0 "AE?" H 4025 975 50  0001 R CNN
@@ -66,7 +28,7 @@ F 3 "" H 4100 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GPS-NEO-M8 MODULE?
+L u-blox:GPS-NEO-M8 MODULE?
 U 1 1 596EA877
 P 2600 1250
 F 0 "MODULE?" H 1850 1900 50  0001 L BNN
@@ -77,7 +39,7 @@ F 3 "" H 2600 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596EAAE6
 P 1550 1800
 F 0 "#PWR?" H 1550 1550 50  0001 C CNN
@@ -92,7 +54,7 @@ Entry Wire Line
 Entry Wire Line
 	1100 1400 1200 1500
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596EAB6F
 P 3850 900
 F 0 "#PWR?" H 3850 650 50  0001 C CNN
@@ -103,7 +65,7 @@ F 3 "" H 3850 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596EAB85
 P 1550 700
 F 0 "#PWR?" H 1550 450 50  0001 C CNN
@@ -118,7 +80,7 @@ Entry Wire Line
 NoConn ~ 3550 1000
 NoConn ~ 3550 1800
 $Comp
-L Battery_Cell BT?
+L Device:Battery_Cell BT?
 U 1 1 596EAD40
 P 1250 1750
 F 0 "BT?" H 1350 1850 50  0001 L CNN
@@ -129,7 +91,7 @@ F 3 "" V 1250 1810 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596EAFAF
 P 1250 1850
 F 0 "#PWR?" H 1250 1600 50  0001 C CNN
@@ -140,7 +102,7 @@ F 3 "" H 1250 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L power:VCC #PWR?
 U 1 1 596EAAD2
 P 1550 1750
 F 0 "#PWR?" H 1550 1600 50  0001 C CNN

@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 5354 4725
 encoding utf-8
@@ -183,45 +145,13 @@ Entry Wire Line
 Entry Wire Line
 	1600 2100 1700 2000
 Wire Bus Line
-	1600 1200 1600 1300
-Wire Bus Line
-	1600 1300 1600 1400
-Wire Bus Line
-	1600 1400 1600 1500
-Wire Bus Line
-	1600 1500 1600 1550
-Wire Bus Line
-	2600 1200 2600 1300
-Wire Bus Line
-	2600 1300 2600 1400
-Wire Bus Line
-	2600 1400 2600 1500
-Wire Bus Line
-	2600 1500 2600 1550
-Wire Bus Line
-	1600 1800 1600 1900
-Wire Bus Line
-	1600 1900 1600 2000
-Wire Bus Line
-	1600 2000 1600 2100
-Wire Bus Line
-	1600 2100 1600 2150
-Wire Bus Line
 	1600 2150 2600 2150
-Wire Bus Line
-	2600 2150 2600 2100
-Wire Bus Line
-	2600 2100 2600 2000
-Wire Bus Line
-	2600 2000 2600 1900
-Wire Bus Line
-	2600 1900 2600 1800
 Entry Bus Bus
 	2600 1550 2700 1450
 Entry Bus Bus
 	2600 2150 2700 2050
 $Comp
-L IC_DIL8 U?
+L ic_dil_generic:IC_DIL8 U?
 U 1 1 5992D3FE
 P 2100 1250
 F 0 "U?" H 2100 1100 50  0001 C CNN
@@ -232,7 +162,7 @@ F 3 "buck conv." H 2100 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_DIL8 U?
+L ic_dil_generic:IC_DIL8 U?
 U 1 1 5992D404
 P 2100 1850
 F 0 "U?" H 2100 1700 50  0001 C CNN
@@ -275,40 +205,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 1400 2450 1400
 Wire Bus Line
-	2700 800  2700 950 
-Wire Bus Line
-	2700 950  2700 1100
-Wire Bus Line
-	2700 1100 2700 1250
-Wire Bus Line
-	2700 1250 2700 1400
-Wire Bus Line
-	2700 1400 2700 1450
-Wire Bus Line
-	2700 1450 2700 1550
-Wire Bus Line
-	2700 1550 2700 1700
-Wire Bus Line
-	2700 1700 2700 1850
-Wire Bus Line
-	2700 1850 2700 2000
-Wire Bus Line
-	2700 2000 2700 2050
-Wire Bus Line
-	2700 2050 2700 2150
-Wire Bus Line
-	2700 2150 2700 2300
-Wire Bus Line
-	2700 2300 2700 2450
-Wire Bus Line
-	2700 2450 2700 2600
-Wire Bus Line
-	2700 2600 2700 2650
-Wire Bus Line
-	2700 2650 2700 2750
-Wire Bus Line
-	2700 2750 2700 2750
-Wire Bus Line
 	1600 1550 1500 1450
 Wire Wire Line
 	2500 2300 2450 2300
@@ -327,7 +223,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2300 1750 2300
 $Comp
-L IC_DIL8 U?
+L ic_dil_generic:IC_DIL8 U?
 U 1 1 5992D357
 P 2100 2450
 F 0 "U?" H 2100 2300 50  0001 C CNN
@@ -340,23 +236,7 @@ $EndComp
 Entry Bus Bus
 	2600 2750 2700 2650
 Wire Bus Line
-	2600 2500 2600 2400
-Wire Bus Line
-	2600 2600 2600 2500
-Wire Bus Line
-	2600 2700 2600 2600
-Wire Bus Line
-	2600 2750 2600 2700
-Wire Bus Line
 	1600 2750 2600 2750
-Wire Bus Line
-	1600 2700 1600 2750
-Wire Bus Line
-	1600 2600 1600 2700
-Wire Bus Line
-	1600 2500 1600 2600
-Wire Bus Line
-	1600 2400 1600 2500
 Entry Wire Line
 	1600 2700 1700 2600
 Entry Wire Line
@@ -373,4 +253,18 @@ Entry Wire Line
 	2500 2400 2600 2500
 Entry Wire Line
 	2500 2300 2600 2400
+Wire Bus Line
+	1600 1200 1600 1550
+Wire Bus Line
+	2600 1200 2600 1550
+Wire Bus Line
+	1600 1800 1600 2150
+Wire Bus Line
+	2600 1800 2600 2150
+Wire Bus Line
+	2600 2400 2600 2750
+Wire Bus Line
+	1600 2400 1600 2750
+Wire Bus Line
+	2700 800  2700 2750
 $EndSCHEMATC

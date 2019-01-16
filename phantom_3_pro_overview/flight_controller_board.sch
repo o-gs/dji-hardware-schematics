@@ -1,44 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:motors
-LIBS:ic_dil_generic
-LIBS:sensors
-LIBS:u-blox
-LIBS:amplifiers
-LIBS:transistors-switches
-LIBS:transistors-power
-LIBS:sensors-v2
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_overview-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr User 6299 4370
 encoding utf-8
@@ -57,7 +19,7 @@ PADS_CENTER
 Text HLabel 3350 2250 2    60   BiDi ~ 0
 FLAT_IMU
 $Comp
-L IC_PQFP32 U?
+L ic_dil_generic:IC_PQFP32 U?
 U 1 1 596E516F
 P 2700 1500
 F 0 "U?" H 2700 1400 50  0001 C CNN
@@ -68,7 +30,7 @@ F 3 "w/ DSP and FPU" H 2700 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro_SD_Card J?
+L phantom_3_pro_overview-rescue:Micro_SD_Card J?
 U 1 1 596E5BE7
 P 4700 1450
 F 0 "J?" H 4050 2050 50  0001 C CNN
@@ -79,7 +41,7 @@ F 3 "" H 4700 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596E5C67
 P 5500 2050
 F 0 "#PWR?" H 5500 1800 50  0001 C CNN
@@ -172,7 +134,7 @@ Entry Wire Line
 Entry Bus Bus
 	1900 700  2000 800 
 $Comp
-L MS5607 U?
+L sensors:MS5607 U?
 U 1 1 596E72EC
 P 1500 2000
 F 0 "U?" H 1100 2250 50  0001 L CNN
@@ -191,7 +153,7 @@ Entry Wire Line
 Entry Wire Line
 	1350 1550 1250 1650
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596E749A
 P 1750 1100
 F 0 "#PWR?" H 1750 850 50  0001 C CNN
@@ -208,7 +170,7 @@ Entry Wire Line
 Entry Wire Line
 	1850 1650 1950 1550
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596E7704
 P 1550 2300
 F 0 "#PWR?" H 1550 2050 50  0001 C CNN
@@ -219,7 +181,7 @@ F 3 "" H 1550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR?
+L power:VDD #PWR?
 U 1 1 596E777E
 P 1750 1000
 F 0 "#PWR?" H 1750 850 50  0001 C CNN
@@ -230,7 +192,7 @@ F 3 "" H 1750 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR?
+L power:VDD #PWR?
 U 1 1 596E7792
 P 3550 1450
 F 0 "#PWR?" H 3550 1300 50  0001 C CNN
@@ -241,7 +203,7 @@ F 3 "" H 3550 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR?
+L power:VDD #PWR?
 U 1 1 596E77A6
 P 1150 2450
 F 0 "#PWR?" H 1150 2300 50  0001 C CNN
@@ -252,7 +214,7 @@ F 3 "" H 1150 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 596E7819
 P 3550 1750
 F 0 "#PWR?" H 3550 1500 50  0001 C CNN
