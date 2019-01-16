@@ -1,42 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:conn-v2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:DRV8301_DCA_56_thin
-LIBS:DRV8301_DCA_56
-LIBS:motors
-LIBS:motor_drivers
-LIBS:texas-uc
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_esc_center_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -51,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R_Small R174
+L Device:R_Small R174
 U 1 1 5977AACE
 P 2800 900
 AR Path="/5977925B/5977AACE" Ref="R174"  Part="1" 
@@ -64,7 +28,7 @@ F 3 "" H 2800 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R176
+L Device:R_Small R176
 U 1 1 5977AAD5
 P 3000 900
 AR Path="/5977925B/5977AAD5" Ref="R176"  Part="1" 
@@ -77,7 +41,7 @@ F 3 "" H 3000 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R175
+L Device:R_Small R175
 U 1 1 5977AADC
 P 2800 1200
 AR Path="/5977925B/5977AADC" Ref="R175"  Part="1" 
@@ -90,7 +54,7 @@ F 3 "" H 2800 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R177
+L Device:R_Small R177
 U 1 1 5977AAE3
 P 3000 1200
 AR Path="/5977925B/5977AAE3" Ref="R177"  Part="1" 
@@ -103,7 +67,7 @@ F 3 "" H 3000 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R178
+L Device:R_Small R178
 U 1 1 5977AB06
 P 3000 1900
 AR Path="/5977925B/5977AB06" Ref="R178"  Part="1" 
@@ -116,7 +80,7 @@ F 3 "" H 3000 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R179
+L Device:R_Small R179
 U 1 1 5977AB0D
 P 3000 2200
 AR Path="/5977925B/5977AB0D" Ref="R179"  Part="1" 
@@ -169,7 +133,7 @@ Wire Wire Line
 Connection ~ 2650 900 
 Connection ~ 2850 1900
 $Comp
-L R_Small R170
+L Device:R_Small R170
 U 1 1 5977AB2C
 P 1750 1100
 AR Path="/5977925B/5977AB2C" Ref="R170"  Part="1" 
@@ -182,7 +146,7 @@ F 3 "" H 1750 1100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R171
+L Device:R_Small R171
 U 1 1 5977AB33
 P 1750 2100
 AR Path="/5977925B/5977AB33" Ref="R171"  Part="1" 
@@ -199,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 2100 1250 2100
 $Comp
-L R_Small R168
+L Device:R_Small R168
 U 1 1 5977AB3E
 P 1600 1200
 AR Path="/5977925B/5977AB3E" Ref="R168"  Part="1" 
@@ -212,7 +176,7 @@ F 3 "" H 1600 1200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0215
+L power:GND #PWR0215
 U 1 1 5977AB45
 P 1600 1300
 AR Path="/5977925B/5977AB45" Ref="#PWR0215"  Part="1" 
@@ -225,7 +189,7 @@ F 3 "" H 1600 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0216
+L power:GND #PWR0216
 U 1 1 5977AB4B
 P 2150 1300
 AR Path="/5977925B/5977AB4B" Ref="#PWR0216"  Part="1" 
@@ -238,7 +202,7 @@ F 3 "" H 2150 1300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R169
+L Device:R_Small R169
 U 1 1 5977AB51
 P 1600 2200
 AR Path="/5977925B/5977AB51" Ref="R169"  Part="1" 
@@ -251,7 +215,7 @@ F 3 "" H 1600 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0217
+L power:GND #PWR0217
 U 1 1 5977AB58
 P 1600 2300
 AR Path="/5977925B/5977AB58" Ref="#PWR0217"  Part="1" 
@@ -264,7 +228,7 @@ F 3 "" H 1600 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0218
+L power:GND #PWR0218
 U 1 1 5977AB5E
 P 2150 2300
 AR Path="/5977925B/5977AB5E" Ref="#PWR0218"  Part="1" 
@@ -277,7 +241,7 @@ F 3 "" H 2150 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R_Small R172
+L Device:R_Small R172
 U 1 1 5977AB64
 P 2150 800
 AR Path="/5977925B/5977AB64" Ref="R172"  Part="1" 
@@ -290,7 +254,7 @@ F 3 "" H 2150 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R173
+L Device:R_Small R173
 U 1 1 5977AB6B
 P 2150 1800
 AR Path="/5977925B/5977AB6B" Ref="R173"  Part="1" 

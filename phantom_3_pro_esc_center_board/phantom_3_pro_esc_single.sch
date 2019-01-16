@@ -1,42 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:conn-v2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:DRV8301_DCA_56_thin
-LIBS:DRV8301_DCA_56
-LIBS:motors
-LIBS:motor_drivers
-LIBS:texas-uc
-LIBS:regul-v2
+EESchema Schematic File Version 4
 LIBS:phantom_3_pro_esc_center_board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -51,7 +15,7 @@ Comment3 "The schematic was not verified with any real board."
 Comment4 ""
 $EndDescr
 $Comp
-L DRV8301_DCA_56 D11
+L DRV8301_DCA_56_thin:DRV8301_DCA_56 D11
 U 1 1 58F018F1
 P 2350 6650
 AR Path="/58FDD387/58F018F1" Ref="D11"  Part="1" 
@@ -100,7 +64,7 @@ Entry Wire Line
 Text Label 3850 7600 1    60   ~ 0
 Ena_Gate
 $Comp
-L GND #PWR077
+L power:GND #PWR077
 U 1 1 58F09E75
 P 5050 7000
 AR Path="/58FDD387/58F09E75" Ref="#PWR077"  Part="1" 
@@ -115,7 +79,7 @@ F 3 "" H 5050 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR078
+L power:GND #PWR078
 U 1 1 58F09EAB
 P 2950 7050
 AR Path="/58FDD387/58F09EAB" Ref="#PWR078"  Part="1" 
@@ -130,7 +94,7 @@ F 3 "" H 2950 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR079
+L power:GND #PWR079
 U 1 1 58F09F17
 P 1700 7350
 AR Path="/58FDD387/58F09F17" Ref="#PWR079"  Part="1" 
@@ -145,7 +109,7 @@ F 3 "" H 1700 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR080
+L power:GND #PWR080
 U 1 1 58F09F83
 P 3350 3850
 AR Path="/58FDD387/58F09F83" Ref="#PWR080"  Part="1" 
@@ -192,7 +156,7 @@ Entry Wire Line
 Entry Wire Line
 	4950 4150 5050 4250
 $Comp
-L +BATT #PWR081
+L power:+BATT #PWR081
 U 1 1 58F11F1D
 P 5150 4400
 AR Path="/58FDD387/58F11F1D" Ref="#PWR081"  Part="1" 
@@ -269,7 +233,7 @@ High-B
 Text Label 3350 4250 3    60   ~ 0
 High-A
 $Comp
-L R R50
+L Device:R R50
 U 1 1 58FA5B57
 P 2950 6850
 AR Path="/58FDD387/58FA5B57" Ref="R50"  Part="1" 
@@ -284,7 +248,7 @@ F 3 "" H 2950 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R43
+L Device:R R43
 U 1 1 58FA5C82
 P 1900 6950
 AR Path="/58FDD387/58FA5C82" Ref="R43"  Part="1" 
@@ -299,7 +263,7 @@ F 3 "" H 1900 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R42
+L Device:R R42
 U 1 1 58FA5DDF
 P 1700 7150
 AR Path="/58FDD387/58FA5DDF" Ref="R42"  Part="1" 
@@ -314,7 +278,7 @@ F 3 "" H 1700 7150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R46
+L Device:R R46
 U 1 1 58FA5E7A
 P 2050 6150
 AR Path="/58FDD387/58FA5E7A" Ref="R46"  Part="1" 
@@ -329,7 +293,7 @@ F 3 "" H 2050 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R41
+L Device:R R41
 U 1 1 58FA5F35
 P 1850 6150
 AR Path="/58FDD387/58FA5F35" Ref="R41"  Part="1" 
@@ -344,7 +308,7 @@ F 3 "" H 1850 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR082
+L power:VCC #PWR082
 U 1 1 58FA5FDA
 P 2100 6950
 AR Path="/58FDD387/58FA5FDA" Ref="#PWR082"  Part="1" 
@@ -359,7 +323,7 @@ F 3 "" H 2100 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR083
+L power:GND #PWR083
 U 1 1 58FA6FA6
 P 1600 6050
 AR Path="/58FDD387/58FA6FA6" Ref="#PWR083"  Part="1" 
@@ -374,7 +338,7 @@ F 3 "" H 1600 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR084
+L power:GND #PWR084
 U 1 1 58FA86A9
 P 2150 4550
 AR Path="/58FDD387/58FA86A9" Ref="#PWR084"  Part="1" 
@@ -389,7 +353,7 @@ F 3 "" H 2150 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L4
+L Device:L L4
 U 1 1 58FA8B9E
 P 2950 3800
 AR Path="/58FDD387/58FA8B9E" Ref="L4"  Part="1" 
@@ -404,7 +368,7 @@ F 3 "" H 2950 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small_ALT D12
+L Device:D_Schottky_Small_ALT D12
 U 1 1 58FA8E7A
 P 3100 4000
 AR Path="/58FDD387/58FA8E7A" Ref="D12"  Part="1" 
@@ -419,7 +383,7 @@ F 3 "" V 3100 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C51
+L Device:C_Small C51
 U 1 1 58FA914C
 P 2600 3850
 AR Path="/58FDD387/58FA914C" Ref="C51"  Part="1" 
@@ -434,7 +398,7 @@ F 3 "" H 2600 3850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C50
+L Device:C_Small C50
 U 1 1 58FAAF7B
 P 2600 3600
 AR Path="/58FDD387/58FAAF7B" Ref="C50"  Part="1" 
@@ -449,7 +413,7 @@ F 3 "" H 2600 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C60
+L Device:C_Small C60
 U 1 1 58FAB26E
 P 4250 4700
 AR Path="/58FDD387/58FAB26E" Ref="C60"  Part="1" 
@@ -464,7 +428,7 @@ F 3 "" H 4250 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C57
+L Device:C_Small C57
 U 1 1 58FAB2E1
 P 3750 4700
 AR Path="/58FDD387/58FAB2E1" Ref="C57"  Part="1" 
@@ -479,7 +443,7 @@ F 3 "" H 3750 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C54
+L Device:C_Small C54
 U 1 1 58FABCE4
 P 3250 4700
 AR Path="/58FDD387/58FABCE4" Ref="C54"  Part="1" 
@@ -494,7 +458,7 @@ F 3 "" H 3250 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C64
+L Device:C_Small C64
 U 1 1 58FAC023
 P 4950 6800
 AR Path="/58FDD387/58FAC023" Ref="C64"  Part="1" 
@@ -509,7 +473,7 @@ F 3 "" H 4950 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C62
+L Device:C_Small C62
 U 1 1 58FAC070
 P 4550 6800
 AR Path="/58FDD387/58FAC070" Ref="C62"  Part="1" 
@@ -524,7 +488,7 @@ F 3 "" H 4550 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C58
+L Device:C_Small C58
 U 1 1 58FAC0BF
 P 3750 6800
 AR Path="/58FDD387/58FAC0BF" Ref="C58"  Part="1" 
@@ -539,7 +503,7 @@ F 3 "" H 3750 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C55
+L Device:C_Small C55
 U 1 1 58FAC110
 P 3550 6800
 AR Path="/58FDD387/58FAC110" Ref="C55"  Part="1" 
@@ -554,7 +518,7 @@ F 3 "" H 3550 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C45
+L Device:C_Small C45
 U 1 1 58FAC163
 P 1700 6450
 AR Path="/58FDD387/58FAC163" Ref="C45"  Part="1" 
@@ -569,7 +533,7 @@ F 3 "" H 1700 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C46
+L Device:C_Small C46
 U 1 1 58FAC1B8
 P 1850 6450
 AR Path="/58FDD387/58FAC1B8" Ref="C46"  Part="1" 
@@ -584,7 +548,7 @@ F 3 "" H 1850 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C49
+L Device:C_Small C49
 U 1 1 58FAF6E0
 P 2300 4500
 AR Path="/58FDD387/58FAF6E0" Ref="C49"  Part="1" 
@@ -599,7 +563,7 @@ F 3 "" H 2300 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR085
+L power:GND #PWR085
 U 1 1 58FB1B8A
 P 2450 3950
 AR Path="/58FDD387/58FB1B8A" Ref="#PWR085"  Part="1" 
@@ -614,7 +578,7 @@ F 3 "" H 2450 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C52
+L Device:C_Small C52
 U 1 1 58FB20A7
 P 2850 4700
 AR Path="/58FDD387/58FB20A7" Ref="C52"  Part="1" 
@@ -629,7 +593,7 @@ F 3 "" H 2850 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR086
+L power:+BATT #PWR086
 U 1 1 58FB397D
 P 2750 3450
 AR Path="/58FDD387/58FB397D" Ref="#PWR086"  Part="1" 
@@ -644,7 +608,7 @@ F 3 "" H 2750 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR087
+L power:VCC #PWR087
 U 1 1 58FB3A3F
 P 2950 3450
 AR Path="/58FDD387/58FB3A3F" Ref="#PWR087"  Part="1" 
@@ -659,7 +623,7 @@ F 3 "" H 2950 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C53
+L Device:CP1_Small C53
 U 1 1 58FB3F91
 P 3100 3600
 AR Path="/58FDD387/58FB3F91" Ref="C53"  Part="1" 
@@ -674,7 +638,7 @@ F 3 "" H 3100 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR088
+L power:VCC #PWR088
 U 1 1 58FB55B6
 P 3150 4650
 AR Path="/58FDD387/58FB55B6" Ref="#PWR088"  Part="1" 
@@ -689,7 +653,7 @@ F 3 "" H 3150 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SDG Q7
+L Device:Q_NMOS_SDG Q7
 U 1 1 58FBAB25
 P 3700 1150
 AR Path="/58FDD387/58FBAB25" Ref="Q7"  Part="1" 
@@ -704,7 +668,7 @@ F 3 "" H 3700 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SDG Q9
+L Device:Q_NMOS_SDG Q9
 U 1 1 58FBACA0
 P 4400 1150
 AR Path="/58FDD387/58FBACA0" Ref="Q9"  Part="1" 
@@ -719,7 +683,7 @@ F 3 "" H 4400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SDG Q11
+L Device:Q_NMOS_SDG Q11
 U 1 1 58FBACF5
 P 5100 1150
 AR Path="/58FDD387/58FBACF5" Ref="Q11"  Part="1" 
@@ -734,7 +698,7 @@ F 3 "" H 5100 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SDG Q8
+L Device:Q_NMOS_SDG Q8
 U 1 1 58FBAD6A
 P 3700 2150
 AR Path="/58FDD387/58FBAD6A" Ref="Q8"  Part="1" 
@@ -749,7 +713,7 @@ F 3 "" H 3700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SDG Q10
+L Device:Q_NMOS_SDG Q10
 U 1 1 58FBADCB
 P 4400 2150
 AR Path="/58FDD387/58FBADCB" Ref="Q10"  Part="1" 
@@ -764,7 +728,7 @@ F 3 "" H 4400 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_SDG Q12
+L Device:Q_NMOS_SDG Q12
 U 1 1 58FBAE34
 P 5100 2150
 AR Path="/58FDD387/58FBAE34" Ref="Q12"  Part="1" 
@@ -779,7 +743,7 @@ F 3 "" H 5100 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR089
+L power:+BATT #PWR089
 U 1 1 58FBAFED
 P 5200 800
 AR Path="/58FDD387/58FBAFED" Ref="#PWR089"  Part="1" 
@@ -794,7 +758,7 @@ F 3 "" H 5200 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C56
+L Device:C_Small C56
 U 1 1 58FBC6D6
 P 3650 2550
 AR Path="/58FDD387/58FBC6D6" Ref="C56"  Part="1" 
@@ -809,7 +773,7 @@ F 3 "" H 3650 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C61
+L Device:C_Small C61
 U 1 1 58FBC7C3
 P 4350 2550
 AR Path="/58FDD387/58FBC7C3" Ref="C61"  Part="1" 
@@ -824,7 +788,7 @@ F 3 "" H 4350 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R54
+L Device:R_Small R54
 U 1 1 58FBD134
 P 3800 2550
 AR Path="/58FDD387/58FBD134" Ref="R54"  Part="1" 
@@ -839,7 +803,7 @@ F 3 "" H 3800 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R58
+L Device:R_Small R58
 U 1 1 58FBD1BB
 P 4500 2550
 AR Path="/58FDD387/58FBD1BB" Ref="R58"  Part="1" 
@@ -854,7 +818,7 @@ F 3 "" H 4500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R64
+L Device:R_Small R64
 U 1 1 58FBD222
 P 5200 2550
 AR Path="/58FDD387/58FBD222" Ref="R64"  Part="1" 
@@ -869,7 +833,7 @@ F 3 "" H 5200 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R62
+L Device:R_Small R62
 U 1 1 58FBD2BB
 P 4800 2250
 AR Path="/58FDD387/58FBD2BB" Ref="R62"  Part="1" 
@@ -884,7 +848,7 @@ F 3 "" H 4800 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R57
+L Device:R_Small R57
 U 1 1 58FBD32A
 P 4100 2250
 AR Path="/58FDD387/58FBD32A" Ref="R57"  Part="1" 
@@ -899,7 +863,7 @@ F 3 "" H 4100 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R53
+L Device:R_Small R53
 U 1 1 58FBD3A5
 P 3400 2250
 AR Path="/58FDD387/58FBD3A5" Ref="R53"  Part="1" 
@@ -914,7 +878,7 @@ F 3 "" H 3400 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R52
+L Device:R_Small R52
 U 1 1 58FBD44B
 P 3250 2050
 AR Path="/58FDD387/58FBD44B" Ref="R52"  Part="1" 
@@ -929,7 +893,7 @@ F 3 "" H 3250 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R56
+L Device:R_Small R56
 U 1 1 58FBD508
 P 3950 1950
 AR Path="/58FDD387/58FBD508" Ref="R56"  Part="1" 
@@ -944,7 +908,7 @@ F 3 "" H 3950 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R60
+L Device:R_Small R60
 U 1 1 58FBD579
 P 4650 1850
 AR Path="/58FDD387/58FBD579" Ref="R60"  Part="1" 
@@ -959,7 +923,7 @@ F 3 "" H 4650 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R59
+L Device:R_Small R59
 U 1 1 58FBD5EA
 P 4650 1450
 AR Path="/58FDD387/58FBD5EA" Ref="R59"  Part="1" 
@@ -974,7 +938,7 @@ F 3 "" H 4650 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R55
+L Device:R_Small R55
 U 1 1 58FBD65F
 P 3950 1350
 AR Path="/58FDD387/58FBD65F" Ref="R55"  Part="1" 
@@ -989,7 +953,7 @@ F 3 "" H 3950 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R51
+L Device:R_Small R51
 U 1 1 58FBD6DA
 P 3250 1250
 AR Path="/58FDD387/58FBD6DA" Ref="R51"  Part="1" 
@@ -1004,7 +968,7 @@ F 3 "" H 3250 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR090
+L power:GND #PWR090
 U 1 1 58FBEB03
 P 3400 2350
 AR Path="/58FDD387/58FBEB03" Ref="#PWR090"  Part="1" 
@@ -1019,7 +983,7 @@ F 3 "" H 3400 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR091
+L power:GND #PWR091
 U 1 1 58FBEB79
 P 4100 2350
 AR Path="/58FDD387/58FBEB79" Ref="#PWR091"  Part="1" 
@@ -1034,7 +998,7 @@ F 3 "" H 4100 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR092
+L power:GND #PWR092
 U 1 1 58FBEBEF
 P 4800 2350
 AR Path="/58FDD387/58FBEBEF" Ref="#PWR092"  Part="1" 
@@ -1049,7 +1013,7 @@ F 3 "" H 4800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR093
+L power:GND #PWR093
 U 1 1 58FBF0C4
 P 3800 2750
 AR Path="/58FDD387/58FBF0C4" Ref="#PWR093"  Part="1" 
@@ -1064,7 +1028,7 @@ F 3 "" H 3800 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR094
+L power:GND #PWR094
 U 1 1 58FBF13A
 P 4500 2750
 AR Path="/58FDD387/58FBF13A" Ref="#PWR094"  Part="1" 
@@ -1079,7 +1043,7 @@ F 3 "" H 4500 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR095
+L power:GND #PWR095
 U 1 1 58FBF1B0
 P 5200 2750
 AR Path="/58FDD387/58FBF1B0" Ref="#PWR095"  Part="1" 
@@ -1130,7 +1094,7 @@ Low-B
 Text Label 2800 2050 0    60   ~ 0
 Low-A
 $Comp
-L C_Small C68
+L Device:C_Small C68
 U 1 1 58FD0395
 P 5300 4800
 AR Path="/58FDD387/58FD0395" Ref="C68"  Part="1" 
@@ -1145,7 +1109,7 @@ F 3 "" H 5300 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C67
+L Device:C_Small C67
 U 1 1 58FD0464
 P 5300 4550
 AR Path="/58FDD387/58FD0464" Ref="C67"  Part="1" 
@@ -1195,7 +1159,7 @@ Entry Bus Bus
 	5200 3150 5300 3250
 NoConn ~ 2550 4850
 $Comp
-L GND #PWR096
+L power:GND #PWR096
 U 1 1 58FF7438
 P 2150 4850
 AR Path="/58FDD387/58FF7438" Ref="#PWR096"  Part="1" 
@@ -1212,7 +1176,7 @@ $EndComp
 Text Notes 3450 3600 0    60   ~ 0
 Brushless DC Motor Driver:\nBLDC Driver IC\nand external components
 $Comp
-L GND #PWR097
+L power:GND #PWR097
 U 1 1 59013AF6
 P 5450 4900
 AR Path="/58FDD387/59013AF6" Ref="#PWR097"  Part="1" 
@@ -1227,7 +1191,7 @@ F 3 "" H 5450 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R47
+L Device:R R47
 U 1 1 5901E27C
 P 2350 6950
 AR Path="/58FDD387/5901E27C" Ref="R47"  Part="1" 
@@ -1242,7 +1206,7 @@ F 3 "" H 2350 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R48
+L Device:R R48
 U 1 1 5901E317
 P 2350 7050
 AR Path="/58FDD387/5901E317" Ref="R48"  Part="1" 
@@ -1257,7 +1221,7 @@ F 3 "" H 2350 7050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R49
+L Device:R R49
 U 1 1 5901E38A
 P 2350 7150
 AR Path="/58FDD387/5901E38A" Ref="R49"  Part="1" 
@@ -1274,7 +1238,7 @@ $EndComp
 Entry Wire Line
 	3350 7700 3450 7600
 $Comp
-L GND #PWR098
+L power:GND #PWR098
 U 1 1 59022FD8
 P 3550 7050
 AR Path="/58FDD387/59022FD8" Ref="#PWR098"  Part="1" 
@@ -1293,7 +1257,7 @@ Entry Wire Line
 Text Label 4650 7600 1    60   ~ 0
 A_Ref
 $Comp
-L GND #PWR099
+L power:GND #PWR099
 U 1 1 5902DA42
 P 4550 7050
 AR Path="/58FDD387/5902DA42" Ref="#PWR099"  Part="1" 
@@ -1310,7 +1274,7 @@ $EndComp
 Text Label 3450 7600 1    60   ~ 0
 DC_Cal
 $Comp
-L R R61
+L Device:R R61
 U 1 1 5903006B
 P 4750 6850
 AR Path="/58FDD387/5903006B" Ref="R61"  Part="1" 
@@ -1325,7 +1289,7 @@ F 3 "" H 4750 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R63
+L Device:R R63
 U 1 1 5903013A
 P 4850 6850
 AR Path="/58FDD387/5903013A" Ref="R63"  Part="1" 
@@ -1340,7 +1304,7 @@ F 3 "" H 4850 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C65
+L Device:C_Small C65
 U 1 1 59030E4D
 P 5000 7300
 AR Path="/58FDD387/59030E4D" Ref="C65"  Part="1" 
@@ -1355,7 +1319,7 @@ F 3 "" H 5000 7300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C66
+L Device:C_Small C66
 U 1 1 59030EF6
 P 5000 7450
 AR Path="/58FDD387/59030EF6" Ref="C66"  Part="1" 
@@ -1370,7 +1334,7 @@ F 3 "" H 5000 7450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0100
+L power:GND #PWR0100
 U 1 1 59031B37
 P 5150 7500
 AR Path="/58FDD387/59031B37" Ref="#PWR0100"  Part="1" 
@@ -1387,7 +1351,7 @@ $EndComp
 Entry Bus Bus
 	5400 7700 5500 7600
 $Comp
-L C_Small C59
+L Device:C_Small C59
 U 1 1 5903A23F
 P 3950 900
 AR Path="/58FDD387/5903A23F" Ref="C59"  Part="1" 
@@ -1402,7 +1366,7 @@ F 3 "" H 3950 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C63
+L Device:C_Small C63
 U 1 1 5903A2F0
 P 4650 900
 AR Path="/58FDD387/5903A2F0" Ref="C63"  Part="1" 
@@ -1417,7 +1381,7 @@ F 3 "" H 4650 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C69
+L Device:C_Small C69
 U 1 1 5903A371
 P 5350 900
 AR Path="/58FDD387/5903A371" Ref="C69"  Part="1" 
@@ -1432,7 +1396,7 @@ F 3 "" H 5350 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0101
+L power:GND #PWR0101
 U 1 1 5903A92F
 P 5500 900
 AR Path="/58FDD387/5903A92F" Ref="#PWR0101"  Part="1" 
@@ -1447,7 +1411,7 @@ F 3 "" H 5500 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0102
+L power:GND #PWR0102
 U 1 1 5903A9B1
 P 4800 900
 AR Path="/58FDD387/5903A9B1" Ref="#PWR0102"  Part="1" 
@@ -1462,7 +1426,7 @@ F 3 "" H 4800 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0103
+L power:GND #PWR0103
 U 1 1 5903AA33
 P 4100 900
 AR Path="/58FDD387/5903AA33" Ref="#PWR0103"  Part="1" 
@@ -1477,7 +1441,7 @@ F 3 "" H 4100 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R34
+L Device:R R34
 U 1 1 58FBC277
 P 550 2350
 AR Path="/58FDD387/58FBC277" Ref="R34"  Part="1" 
@@ -1492,7 +1456,7 @@ F 3 "" H 550 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L Device:R R35
 U 1 1 58FBC3FC
 P 550 2700
 AR Path="/58FDD387/58FBC3FC" Ref="R35"  Part="1" 
@@ -1507,7 +1471,7 @@ F 3 "" H 550 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small_ALT D7
+L Device:D_Schottky_Small_ALT D7
 U 1 1 58FBC665
 P 750 2350
 AR Path="/58FDD387/58FBC665" Ref="D7"  Part="1" 
@@ -1522,7 +1486,7 @@ F 3 "" V 750 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C39
+L Device:C_Small C39
 U 1 1 58FBC71C
 P 750 2700
 AR Path="/58FDD387/58FBC71C" Ref="C39"  Part="1" 
@@ -1537,7 +1501,7 @@ F 3 "" H 750 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR0104
+L power:VCC #PWR0104
 U 1 1 58FBC8F4
 P 750 2150
 AR Path="/58FDD387/58FBC8F4" Ref="#PWR0104"  Part="1" 
@@ -1552,7 +1516,7 @@ F 3 "" H 750 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0105
+L power:GND #PWR0105
 U 1 1 58FBC9B9
 P 650 2900
 AR Path="/58FDD387/58FBC9B9" Ref="#PWR0105"  Part="1" 
@@ -1567,7 +1531,7 @@ F 3 "" H 650 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R36
+L Device:R R36
 U 1 1 58FC1EAE
 P 1250 2350
 AR Path="/58FDD387/58FC1EAE" Ref="R36"  Part="1" 
@@ -1582,7 +1546,7 @@ F 3 "" H 1250 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R37
+L Device:R R37
 U 1 1 58FC1EB4
 P 1250 2700
 AR Path="/58FDD387/58FC1EB4" Ref="R37"  Part="1" 
@@ -1597,7 +1561,7 @@ F 3 "" H 1250 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small_ALT D8
+L Device:D_Schottky_Small_ALT D8
 U 1 1 58FC1EBA
 P 1450 2350
 AR Path="/58FDD387/58FC1EBA" Ref="D8"  Part="1" 
@@ -1612,7 +1576,7 @@ F 3 "" V 1450 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C44
+L Device:C_Small C44
 U 1 1 58FC1EC0
 P 1450 2700
 AR Path="/58FDD387/58FC1EC0" Ref="C44"  Part="1" 
@@ -1627,7 +1591,7 @@ F 3 "" H 1450 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR0106
+L power:VCC #PWR0106
 U 1 1 58FC1EC6
 P 1450 2150
 AR Path="/58FDD387/58FC1EC6" Ref="#PWR0106"  Part="1" 
@@ -1642,7 +1606,7 @@ F 3 "" H 1450 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0107
+L power:GND #PWR0107
 U 1 1 58FC1ECC
 P 1350 2900
 AR Path="/58FDD387/58FC1ECC" Ref="#PWR0107"  Part="1" 
@@ -1657,7 +1621,7 @@ F 3 "" H 1350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R44
+L Device:R R44
 U 1 1 58FC21A1
 P 1950 2350
 AR Path="/58FDD387/58FC21A1" Ref="R44"  Part="1" 
@@ -1672,7 +1636,7 @@ F 3 "" H 1950 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R45
+L Device:R R45
 U 1 1 58FC21A7
 P 1950 2700
 AR Path="/58FDD387/58FC21A7" Ref="R45"  Part="1" 
@@ -1687,7 +1651,7 @@ F 3 "" H 1950 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small_ALT D10
+L Device:D_Schottky_Small_ALT D10
 U 1 1 58FC21AD
 P 2150 2350
 AR Path="/58FDD387/58FC21AD" Ref="D10"  Part="1" 
@@ -1702,7 +1666,7 @@ F 3 "" V 2150 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C48
+L Device:C_Small C48
 U 1 1 58FC21B3
 P 2150 2700
 AR Path="/58FDD387/58FC21B3" Ref="C48"  Part="1" 
@@ -1717,7 +1681,7 @@ F 3 "" H 2150 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR0108
+L power:VCC #PWR0108
 U 1 1 58FC21B9
 P 2150 2150
 AR Path="/58FDD387/58FC21B9" Ref="#PWR0108"  Part="1" 
@@ -1732,7 +1696,7 @@ F 3 "" H 2150 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0109
+L power:GND #PWR0109
 U 1 1 58FC21BF
 P 2050 2900
 AR Path="/58FDD387/58FC21BF" Ref="#PWR0109"  Part="1" 
@@ -1747,7 +1711,7 @@ F 3 "" H 2050 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR0110
+L power:+BATT #PWR0110
 U 1 1 58FC791E
 P 800 800
 AR Path="/58FDD387/58FC791E" Ref="#PWR0110"  Part="1" 
@@ -1762,7 +1726,7 @@ F 3 "" H 800 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C40
+L Device:CP1_Small C40
 U 1 1 58FC7CDC
 P 800 1150
 AR Path="/58FDD387/58FC7CDC" Ref="C40"  Part="1" 
@@ -1777,7 +1741,7 @@ F 3 "" H 800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C41
+L Device:CP1_Small C41
 U 1 1 58FC7DDD
 P 1000 1150
 AR Path="/58FDD387/58FC7DDD" Ref="C41"  Part="1" 
@@ -1792,7 +1756,7 @@ F 3 "" H 1000 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R39
+L Device:R R39
 U 1 1 58FC8032
 P 1700 1000
 AR Path="/58FDD387/58FC8032" Ref="R39"  Part="1" 
@@ -1807,7 +1771,7 @@ F 3 "" H 1700 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R40
+L Device:R R40
 U 1 1 58FC8038
 P 1700 1350
 AR Path="/58FDD387/58FC8038" Ref="R40"  Part="1" 
@@ -1822,7 +1786,7 @@ F 3 "" H 1700 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_Small_ALT D9
+L Device:D_Schottky_Small_ALT D9
 U 1 1 58FC803E
 P 1900 1000
 AR Path="/58FDD387/58FC803E" Ref="D9"  Part="1" 
@@ -1837,7 +1801,7 @@ F 3 "" V 1900 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C47
+L Device:C_Small C47
 U 1 1 58FC8044
 P 1900 1350
 AR Path="/58FDD387/58FC8044" Ref="C47"  Part="1" 
@@ -1852,7 +1816,7 @@ F 3 "" H 1900 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR0111
+L power:VCC #PWR0111
 U 1 1 58FC804A
 P 1900 800
 AR Path="/58FDD387/58FC804A" Ref="#PWR0111"  Part="1" 
@@ -1867,7 +1831,7 @@ F 3 "" H 1900 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0112
+L power:GND #PWR0112
 U 1 1 58FC8050
 P 1800 1550
 AR Path="/58FDD387/58FC8050" Ref="#PWR0112"  Part="1" 
@@ -1882,7 +1846,7 @@ F 3 "" H 1800 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C43
+L Device:C_Small C43
 U 1 1 58FC8467
 P 1400 1000
 AR Path="/58FDD387/58FC8467" Ref="C43"  Part="1" 
@@ -1897,7 +1861,7 @@ F 3 "" H 1400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C42
+L Device:C_Small C42
 U 1 1 58FC86D0
 P 1200 1150
 AR Path="/58FDD387/58FC86D0" Ref="C42"  Part="1" 
@@ -1912,7 +1876,7 @@ F 3 "" H 1200 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R38
+L Device:R R38
 U 1 1 58FC8890
 P 1400 1300
 AR Path="/58FDD387/58FC8890" Ref="R38"  Part="1" 
@@ -1927,7 +1891,7 @@ F 3 "" H 1400 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0113
+L power:GND #PWR0113
 U 1 1 58FC9163
 P 800 1500
 AR Path="/58FDD387/58FC9163" Ref="#PWR0113"  Part="1" 
@@ -1942,7 +1906,7 @@ F 3 "" H 800 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TMS320F28027F-thin T2
+L texas-uc:TMS320F28027F-thin T2
 U 1 1 5900ABEF
 P 8500 4450
 AR Path="/58FDD387/5900ABEF" Ref="T2"  Part="1" 
@@ -1957,7 +1921,7 @@ F 3 "" H 8500 4500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C75
+L Device:CP1_Small C75
 U 1 1 5900C720
 P 10950 3050
 AR Path="/58FDD387/5900C720" Ref="C75"  Part="1" 
@@ -1972,7 +1936,7 @@ F 3 "" H 10950 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP1_Small C76
+L Device:CP1_Small C76
 U 1 1 5900C81C
 P 10950 3350
 AR Path="/58FDD387/5900C81C" Ref="C76"  Part="1" 
@@ -1987,7 +1951,7 @@ F 3 "" H 10950 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R66
+L Device:R R66
 U 1 1 5900CA05
 P 10350 3200
 AR Path="/58FDD387/5900CA05" Ref="R66"  Part="1" 
@@ -2002,7 +1966,7 @@ F 3 "" H 10350 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_Small Y3
+L Device:Crystal_Small Y3
 U 1 1 5900E553
 P 10550 3200
 AR Path="/58FDD387/5900E553" Ref="Y3"  Part="1" 
@@ -2017,7 +1981,7 @@ F 3 "" H 10550 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Crystal_Small Y4
+L Device:Crystal_Small Y4
 U 1 1 5900E69E
 P 10750 3200
 AR Path="/58FDD387/5900E69E" Ref="Y4"  Part="1" 
@@ -2032,7 +1996,7 @@ F 3 "" H 10750 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0114
+L power:GND #PWR0114
 U 1 1 5900E7F7
 P 11100 3350
 AR Path="/58FDD387/5900E7F7" Ref="#PWR0114"  Part="1" 
@@ -2047,7 +2011,7 @@ F 3 "" H 11100 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0115
+L power:+3.3V #PWR0115
 U 1 1 5901213B
 P 10650 4200
 AR Path="/58FDD387/5901213B" Ref="#PWR0115"  Part="1" 
@@ -2062,7 +2026,7 @@ F 3 "" H 10650 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L6
+L Device:L L6
 U 1 1 59012488
 P 10650 4550
 AR Path="/58FDD387/59012488" Ref="L6"  Part="1" 
@@ -2077,7 +2041,7 @@ F 3 "" H 10650 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C74
+L Device:CP1_Small C74
 U 1 1 5901289D
 P 10650 4900
 AR Path="/58FDD387/5901289D" Ref="C74"  Part="1" 
@@ -2092,7 +2056,7 @@ F 3 "" H 10650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0116
+L power:GND #PWR0116
 U 1 1 59012A34
 P 10650 5100
 AR Path="/58FDD387/59012A34" Ref="#PWR0116"  Part="1" 
@@ -2107,7 +2071,7 @@ F 3 "" H 10650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0117
+L power:GND #PWR0117
 U 1 1 5901368C
 P 10050 6350
 AR Path="/58FDD387/5901368C" Ref="#PWR0117"  Part="1" 
@@ -2122,7 +2086,7 @@ F 3 "" H 10050 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C73
+L Device:CP1_Small C73
 U 1 1 59015AD8
 P 10200 5200
 AR Path="/58FDD387/59015AD8" Ref="C73"  Part="1" 
@@ -2137,7 +2101,7 @@ F 3 "" H 10200 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP1_Small C72
+L Device:CP1_Small C72
 U 1 1 59015C09
 P 10200 3550
 AR Path="/58FDD387/59015C09" Ref="C72"  Part="1" 
@@ -2152,7 +2116,7 @@ F 3 "" H 10200 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR0118
+L power:+3.3V #PWR0118
 U 1 1 59028AD1
 P 6300 3850
 AR Path="/58FDD387/59028AD1" Ref="#PWR0118"  Part="1" 
@@ -2167,7 +2131,7 @@ F 3 "" H 6300 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L5
+L Device:L L5
 U 1 1 59028AD7
 P 6300 4100
 AR Path="/58FDD387/59028AD7" Ref="L5"  Part="1" 
@@ -2182,7 +2146,7 @@ F 3 "" H 6300 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C71
+L Device:CP1_Small C71
 U 1 1 59028ADD
 P 6300 4450
 AR Path="/58FDD387/59028ADD" Ref="C71"  Part="1" 
@@ -2197,7 +2161,7 @@ F 3 "" H 6300 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0119
+L power:GND #PWR0119
 U 1 1 59028AE3
 P 6300 4650
 AR Path="/58FDD387/59028AE3" Ref="#PWR0119"  Part="1" 
@@ -2212,7 +2176,7 @@ F 3 "" H 6300 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R65
+L Device:R R65
 U 1 1 59033E68
 P 6550 3100
 AR Path="/58FDD387/59033E68" Ref="R65"  Part="1" 
@@ -2227,7 +2191,7 @@ F 3 "" H 6550 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR0120
+L power:+3.3V #PWR0120
 U 1 1 59034177
 P 6350 3100
 AR Path="/58FDD387/59034177" Ref="#PWR0120"  Part="1" 
@@ -2242,7 +2206,7 @@ F 3 "" H 6350 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C70
+L Device:CP1_Small C70
 U 1 1 590342EB
 P 6050 4250
 AR Path="/58FDD387/590342EB" Ref="C70"  Part="1" 
@@ -2257,7 +2221,7 @@ F 3 "" H 6050 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0121
+L power:GND #PWR0121
 U 1 1 59037B52
 P 6050 4650
 AR Path="/58FDD387/59037B52" Ref="#PWR0121"  Part="1" 
@@ -2332,7 +2296,7 @@ FAULT
 NoConn ~ 10000 2950
 NoConn ~ 7000 5200
 $Comp
-L GND #PWR0122
+L power:GND #PWR0122
 U 1 1 5907E498
 P 6950 6350
 AR Path="/58FDD387/5907E498" Ref="#PWR0122"  Part="1" 
@@ -2567,7 +2531,7 @@ Entry Bus Bus
 Text Notes 7250 2500 0    60   ~ 0
 ESC microcontroler:\nMCU integrated chip\nand external components
 $Comp
-L Brushless_Motor_3phase M2
+L motors:Brushless_Motor_3phase M2
 U 1 1 5912FB17
 P 8000 1250
 AR Path="/58FDD387/5912FB17" Ref="M2"  Part="1" 
