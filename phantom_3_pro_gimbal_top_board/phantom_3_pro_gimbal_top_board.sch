@@ -3531,7 +3531,7 @@ F 3 "" H 19450 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19450 3650 19600 3650
+	19450 3650 19800 3650
 Wire Wire Line
 	19600 3650 19600 4000
 Wire Wire Line
@@ -3577,4 +3577,9 @@ Text Label 15550 4300 0    60   ~ 0
 CANH
 Text Label 15550 4400 0    60   ~ 0
 CANL
+Wire Wire Line
+	19800 3650 19800 3250
+Connection ~ 19600 3650
+Text Notes 19400 3300 0    60   ~ 0
+unknown logic sets "S"\nto high and enables USB\nafter initial boot
 $EndSCHEMATC
