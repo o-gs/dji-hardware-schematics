@@ -30,9 +30,11 @@ F 3 "w/ DSP and FPU" H 2700 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phantom_3_pro_overview-rescue:Micro_SD_Card J?
+L Connector:Micro_SD_Card J?
 U 1 1 596E5BE7
 P 4700 1450
+AR Path="/596E5BE7" Ref="J?"  Part="1" 
+AR Path="/596C09C9/596E5BE7" Ref="J?"  Part="1" 
 F 0 "J?" H 4050 2050 50  0001 C CNN
 F 1 "Micro_SD_Card" H 5350 2050 50  0000 R CNN
 F 2 "" H 5850 1750 50  0001 C CNN
@@ -301,16 +303,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 1850 2150 1850
 Wire Bus Line
-	2450 2250 3350 2250
-Wire Bus Line
-	3650 2100 3650 1250
-Wire Bus Line
-	3400 1250 3400 2100
-Wire Bus Line
-	1750 700  2950 700 
-Wire Bus Line
-	2000 800  2000 1450
-Wire Bus Line
 	3500 2200 3550 2200
 Wire Wire Line
 	1700 1700 1700 1650
@@ -324,10 +316,6 @@ Wire Wire Line
 	1750 1100 1800 1100
 Wire Wire Line
 	1750 1000 1800 1000
-Wire Bus Line
-	1350 1550 2000 1550
-Wire Bus Line
-	2000 1550 2000 1750
 Wire Wire Line
 	1850 2300 1850 1650
 Wire Wire Line
@@ -351,5 +339,19 @@ Wire Wire Line
 Entry Bus Bus
 	1800 700  1900 800 
 Wire Bus Line
+	2000 1550 2000 1750
+Wire Bus Line
 	1900 800  1900 1200
+Wire Bus Line
+	1350 1550 2000 1550
+Wire Bus Line
+	3650 1250 3650 2100
+Wire Bus Line
+	2000 800  2000 1450
+Wire Bus Line
+	1750 700  2950 700 
+Wire Bus Line
+	2450 2250 3350 2250
+Wire Bus Line
+	3400 1250 3400 2100
 $EndSCHEMATC

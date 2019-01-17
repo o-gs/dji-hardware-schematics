@@ -159,7 +159,7 @@ Entry Wire Line
 Entry Bus Bus
 	1900 1450 2000 1550
 $Comp
-L transistors-power:AON7804-align1 Q?
+L Transistor_FET-v2:AON7804-align1 Q?
 U 1 1 59714F5F
 P 3900 1250
 AR Path="/596E86D9/59714F5F" Ref="Q?"  Part="1" 
@@ -197,7 +197,7 @@ $EndComp
 Entry Wire Line
 	3500 700  3600 600 
 $Comp
-L transistors-power:AON7804-align1 Q?
+L Transistor_FET-v2:AON7804-align1 Q?
 U 1 1 597166A6
 P 3250 1250
 F 0 "Q?" H 3000 1025 50  0001 L CNN
@@ -232,7 +232,7 @@ $EndComp
 Entry Wire Line
 	2850 700  2950 600 
 $Comp
-L transistors-power:AON7804-align1 Q?
+L Transistor_FET-v2:AON7804-align1 Q?
 U 1 1 597166C5
 P 2600 1250
 F 0 "Q?" H 2350 1025 50  0001 L CNN

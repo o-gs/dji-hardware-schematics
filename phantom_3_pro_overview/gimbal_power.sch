@@ -60,27 +60,15 @@ Wire Wire Line
 Wire Wire Line
 	800  950  750  950 
 Wire Bus Line
-	650  750  650  850 
-Wire Bus Line
-	650  850  650  950 
-Wire Bus Line
-	650  950  650  1050
-Wire Bus Line
-	650  1050 650  1300
-Wire Bus Line
 	650  1300 550  1300
-Wire Bus Line
-	1650 1100 1650 1050
-Wire Bus Line
-	1650 1050 1650 950 
-Wire Bus Line
-	1650 950  1650 850 
-Wire Bus Line
-	1650 850  1650 750 
 Text HLabel 1350 1200 0    60   Output ~ 0
 GIMBAL_PWR
 Entry Bus Bus
 	1550 1200 1650 1100
 Wire Bus Line
 	1550 1200 1350 1200
+Wire Bus Line
+	650  750  650  1300
+Wire Bus Line
+	1650 750  1650 1100
 $EndSCHEMATC

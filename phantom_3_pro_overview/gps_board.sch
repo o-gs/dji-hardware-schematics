@@ -115,7 +115,7 @@ $EndComp
 Wire Wire Line
 	3550 800  3900 800 
 Wire Wire Line
-	3550 900  3900 900 
+	3550 900  3600 900 
 Wire Wire Line
 	3550 700  3600 700 
 Wire Wire Line
@@ -125,8 +125,6 @@ Wire Wire Line
 	1200 1400 1650 1400
 Wire Wire Line
 	1200 1500 1650 1500
-Wire Bus Line
-	1100 1200 1100 2050
 Connection ~ 3850 900 
 Wire Wire Line
 	1550 700  1650 700 
@@ -149,4 +147,10 @@ Wire Bus Line
 NoConn ~ 3550 1200
 NoConn ~ 3550 1300
 NoConn ~ 3550 1400
+Wire Wire Line
+	3600 900  3850 900 
+Wire Wire Line
+	3850 900  3900 900 
+Wire Bus Line
+	1100 1200 1100 2050
 $EndSCHEMATC

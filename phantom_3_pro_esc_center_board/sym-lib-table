@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name texas)(type Legacy)(uri ${KIPRJMOD}/../../lib/texas.lib)(options "")(descr ""))
+  (lib (name DRV8301_DCA_56_thin)(type Legacy)(uri ${KIPRJMOD}/../../lib/DRV8301_DCA_56_thin.lib)(options "")(descr ""))
+  (lib (name DRV8301_DCA_56)(type Legacy)(uri ${KIPRJMOD}/../../lib/DRV8301_DCA_56.lib)(options "")(descr ""))
+  (lib (name motors)(type Legacy)(uri ${KIPRJMOD}/../../lib/motors.lib)(options "")(descr ""))
+  (lib (name motor_drivers)(type Legacy)(uri ${KIPRJMOD}/../../lib/motor_drivers.lib)(options "")(descr ""))
+)

@@ -2543,6 +2543,7 @@ AR Path="/58FDD387/5912FB17" Ref="M2"  Part="1"
 AR Path="/58FDAEFB/5912FB17" Ref="M1"  Part="1" 
 AR Path="/58FDDC64/5912FB17" Ref="M3"  Part="1" 
 AR Path="/58FDDC6B/5912FB17" Ref="M4"  Part="1" 
+AR Path="/5912FB17" Ref="M1"  Part="1" 
 F 0 "M1" H 8150 1350 50  0000 L CNN
 F 1 "Brushless_Motor_3phase" H 8150 1300 50  0000 L TNN
 F 2 "" H 8010 1240 50  0001 C CNN

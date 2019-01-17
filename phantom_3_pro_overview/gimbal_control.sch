@@ -115,10 +115,6 @@ Entry Wire Line
 Entry Wire Line
 	1850 1050 1950 950 
 Wire Bus Line
-	1850 1050 2850 1050
-Wire Bus Line
-	1850 1050 1850 750 
-Wire Bus Line
 	1650 1450 1650 1400
 Wire Bus Line
 	1750 1450 1650 1450
@@ -158,10 +154,6 @@ Wire Bus Line
 	3250 2350 3250 2300
 Wire Bus Line
 	3150 2350 3250 2350
-Wire Bus Line
-	1850 2450 3050 2450
-Wire Bus Line
-	3150 1500 3150 2350
 Wire Wire Line
 	3050 1400 3000 1400
 Wire Wire Line
@@ -210,8 +202,6 @@ Entry Wire Line
 	2850 950  2750 850 
 Entry Wire Line
 	2850 1050 2750 950 
-Wire Bus Line
-	2850 1050 2850 750 
 Wire Wire Line
 	2750 650  2700 650 
 Wire Wire Line
@@ -220,8 +210,6 @@ Wire Wire Line
 	2750 850  2700 850 
 Wire Wire Line
 	2700 950  2750 950 
-Wire Bus Line
-	1750 1450 1750 1300
 Entry Bus Bus
 	1750 2350 1850 2450
 Text HLabel 1500 1600 1    60   BiDi ~ 0
@@ -231,7 +219,19 @@ Wire Bus Line
 Wire Bus Line
 	1500 1700 1750 1700
 Wire Bus Line
-	1750 1700 1750 1500
+	1750 1300 1750 1450
+Wire Bus Line
+	1750 1500 1750 1700
 Wire Bus Line
 	1750 1800 1750 2350
+Wire Bus Line
+	1850 750  1850 1050
+Wire Bus Line
+	2850 750  2850 1050
+Wire Bus Line
+	1850 2450 3050 2450
+Wire Bus Line
+	3150 1500 3150 2350
+Wire Bus Line
+	1850 1050 2850 1050
 $EndSCHEMATC

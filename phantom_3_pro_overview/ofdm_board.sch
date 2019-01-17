@@ -475,10 +475,6 @@ Wire Wire Line
 	8000 2000 8050 2000
 Wire Wire Line
 	8000 2100 8050 2100
-Wire Bus Line
-	8150 1900 8350 1900
-Wire Bus Line
-	8150 2200 8350 2200
 Wire Wire Line
 	8300 2000 8150 2000
 Wire Wire Line
@@ -505,10 +501,6 @@ Wire Wire Line
 	8000 3050 8050 3050
 Wire Wire Line
 	8000 3150 8050 3150
-Wire Bus Line
-	8150 2950 8350 2950
-Wire Bus Line
-	8150 3250 8350 3250
 Wire Wire Line
 	8300 3050 8150 3050
 Wire Wire Line
@@ -567,8 +559,6 @@ Wire Wire Line
 	1650 2450 1700 2450
 Wire Wire Line
 	1700 2350 1650 2350
-Wire Bus Line
-	600  2150 600  2550
 Wire Wire Line
 	700  2350 850  2350
 Wire Wire Line
@@ -609,8 +599,6 @@ Wire Wire Line
 	4000 2450 4050 2450
 Wire Wire Line
 	4050 2350 4000 2350
-Wire Bus Line
-	3900 2100 3900 3300
 Wire Wire Line
 	2100 3100 2150 3100
 Wire Wire Line
@@ -643,10 +631,6 @@ Wire Wire Line
 	3550 2500 3600 2500
 Wire Wire Line
 	3600 2400 3550 2400
-Wire Bus Line
-	2000 2100 2000 3300
-Wire Bus Line
-	1800 3300 1800 2450
 Entry Wire Line
 	5200 2750 5300 2850
 Entry Wire Line
@@ -666,11 +650,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 3050 5150 3050
 Wire Bus Line
-	700  2850 700  3300
-Wire Bus Line
 	800  3400 1900 3400
-Wire Bus Line
-	5300 3300 5300 2850
 Entry Wire Line
 	2800 3400 2700 3300
 Entry Wire Line
@@ -794,8 +774,6 @@ Entry Wire Line
 	2400 3300 2500 3400
 Entry Wire Line
 	2300 3300 2400 3400
-Wire Bus Line
-	3700 2100 3700 3300
 Wire Wire Line
 	3550 2000 3600 2000
 Wire Wire Line
@@ -844,8 +822,6 @@ Entry Wire Line
 	1250 600  1150 700 
 Entry Wire Line
 	1150 600  1050 700 
-Wire Bus Line
-	1150 600  4450 600 
 Wire Wire Line
 	1750 750  1750 700 
 Wire Wire Line
@@ -944,10 +920,6 @@ Wire Wire Line
 	3100 1850 3100 1800
 Entry Bus Bus
 	2000 2000 2100 1900
-Wire Bus Line
-	2100 1900 2100 1050
-Wire Bus Line
-	1150 2000 2000 2000
 Entry Wire Line
 	700  850  800  950 
 Entry Wire Line
@@ -980,8 +952,6 @@ Wire Wire Line
 	850  1550 800  1550
 Wire Wire Line
 	800  1650 850  1650
-Wire Bus Line
-	700  1250 700  850 
 Entry Bus Bus
 	4450 600  4550 700 
 Wire Bus Line
@@ -990,20 +960,50 @@ Wire Bus Line
 	600  1250 700  1250
 Entry Bus Bus
 	2100 1800 2200 1700
-Wire Bus Line
-	2200 1700 3300 1700
-Wire Bus Line
-	4550 2000 4850 2000
 Entry Bus Bus
 	3900 2100 4000 2000
-Wire Bus Line
-	4450 2000 4000 2000
-Wire Bus Line
-	5200 3400 2400 3400
-Wire Bus Line
-	700  1350 700  2200
 Wire Bus Line
 	700  2200 600  2200
 Wire Bus Line
 	600  1250 600  1200
+Wire Bus Line
+	8150 1900 8350 1900
+Wire Bus Line
+	8150 2200 8350 2200
+Wire Bus Line
+	8150 2950 8350 2950
+Wire Bus Line
+	8150 3250 8350 3250
+Wire Bus Line
+	4550 2000 4850 2000
+Wire Bus Line
+	700  1350 700  2200
+Wire Bus Line
+	600  2150 600  2550
+Wire Bus Line
+	700  2850 700  3300
+Wire Bus Line
+	5300 2850 5300 3300
+Wire Bus Line
+	700  850  700  1250
+Wire Bus Line
+	4000 2000 4450 2000
+Wire Bus Line
+	3900 2100 3900 3300
+Wire Bus Line
+	1800 2450 1800 3300
+Wire Bus Line
+	1150 600  4450 600 
+Wire Bus Line
+	2100 1050 2100 1900
+Wire Bus Line
+	1150 2000 2000 2000
+Wire Bus Line
+	2200 1700 3300 1700
+Wire Bus Line
+	2000 2100 2000 3300
+Wire Bus Line
+	3700 2100 3700 3300
+Wire Bus Line
+	2400 3400 5200 3400
 $EndSCHEMATC

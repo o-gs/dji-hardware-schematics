@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name texas)(type Legacy)(uri ${KIPRJMOD}/../../lib/texas.lib)(options "")(descr ""))
+  (lib (name ic_dil_generic)(type Legacy)(uri ${KIPRJMOD}/../../lib/ic_dil_generic.lib)(options "")(descr ""))
+  (lib (name sensors)(type Legacy)(uri ${KIPRJMOD}/../../lib/sensors.lib)(options "")(descr ""))
+)

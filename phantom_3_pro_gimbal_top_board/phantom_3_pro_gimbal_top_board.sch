@@ -3253,7 +3253,7 @@ $EndComp
 Wire Wire Line
 	20250 3900 19850 3900
 $Comp
-L phantom_3_pro_gimbal_top_board-rescue:PCA82C251 U17
+L Interface_CAN_LIN:PCA82C251 U17
 U 1 1 5A280A05
 P 15100 4400
 F 0 "U17" H 14900 4950 50  0000 L CNN

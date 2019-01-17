@@ -34,7 +34,7 @@ F 3 "3-Ph Motor Drv" H 3600 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phantom_3_pro_overview-rescue:BSS138 Q?
+L Transistor_FET-v2:AON6504 Q?
 U 1 1 596D44EF
 P 4800 1600
 AR Path="/596D582B/596D44EF" Ref="Q?"  Part="1" 
@@ -78,7 +78,7 @@ F 3 "" H 1200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phantom_3_pro_overview-rescue:BSS138 Q?
+L Transistor_FET-v2:AON6504 Q?
 U 1 1 596D493A
 P 4800 2000
 AR Path="/596D582B/596D493A" Ref="Q?"  Part="1" 
@@ -118,7 +118,7 @@ F 3 "" H 4900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phantom_3_pro_overview-rescue:BSS138 Q?
+L Transistor_FET-v2:AON6504 Q?
 U 1 1 596D4994
 P 5400 1600
 AR Path="/596D582B/596D4994" Ref="Q?"  Part="1" 
@@ -132,7 +132,7 @@ F 3 "N-Ch MOS" H 5600 1500 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phantom_3_pro_overview-rescue:BSS138 Q?
+L Transistor_FET-v2:AON6504 Q?
 U 1 1 596D499A
 P 5400 2000
 AR Path="/596D582B/596D499A" Ref="Q?"  Part="1" 
@@ -172,7 +172,7 @@ F 3 "" H 5500 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phantom_3_pro_overview-rescue:BSS138 Q?
+L Transistor_FET-v2:AON6504 Q?
 U 1 1 596D49AC
 P 6000 1600
 AR Path="/596D582B/596D49AC" Ref="Q?"  Part="1" 
@@ -186,7 +186,7 @@ F 3 "N-Ch MOS" H 6200 1500 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phantom_3_pro_overview-rescue:BSS138 Q?
+L Transistor_FET-v2:AON6504 Q?
 U 1 1 596D49B2
 P 6000 2000
 AR Path="/596D582B/596D49B2" Ref="Q?"  Part="1" 
@@ -578,12 +578,13 @@ Entry Bus Bus
 	2600 1150 2700 1250
 Wire Wire Line
 	1450 1800 1400 1800
+Connection ~ 4900 1800
 Wire Bus Line
 	1000 2100 1150 2100
 Wire Bus Line
-	1300 1300 1300 1600
-Wire Bus Line
 	5150 1150 6400 1150
+Wire Bus Line
+	1300 1300 1300 1600
 Wire Bus Line
 	1300 1900 1300 2450
 Wire Bus Line

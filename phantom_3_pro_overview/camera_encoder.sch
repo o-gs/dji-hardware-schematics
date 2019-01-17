@@ -603,9 +603,9 @@ F 3 "" H 950 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	1750 1050 1750 1350
-Wire Bus Line
 	3000 2650 3000 2850
+Wire Bus Line
+	1750 1050 1750 1350
 Wire Bus Line
 	1400 1050 1400 1350
 Wire Bus Line

@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name texas)(type Legacy)(uri ${KIPRJMOD}/../../lib/texas.lib)(options "")(descr ""))
+  (lib (name memory-ram)(type Legacy)(uri ${KIPRJMOD}/../../lib/memory-ram.lib)(options "")(descr ""))
+  (lib (name memory-flash)(type Legacy)(uri ${KIPRJMOD}/../../lib/memory-flash.lib)(options "")(descr ""))
+  (lib (name sensors)(type Legacy)(uri ${KIPRJMOD}/../../lib/sensors.lib)(options "")(descr ""))
+  (lib (name microchip-dsp)(type Legacy)(uri ${KIPRJMOD}/../../lib/microchip-dsp.lib)(options "")(descr ""))
+)

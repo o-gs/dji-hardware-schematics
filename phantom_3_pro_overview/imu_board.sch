@@ -166,15 +166,15 @@ Entry Bus Bus
 Wire Bus Line
 	1000 2050 1050 2050
 Wire Bus Line
+	950  1850 1050 1850
+Wire Bus Line
+	1150 2050 1150 1950
+Wire Bus Line
 	2350 1100 2350 1950
 Wire Bus Line
 	1150 2050 2250 2050
 Wire Bus Line
-	1900 650  1050 650 
+	1050 650  1900 650 
 Wire Bus Line
-	950  1850 950  750 
-Wire Bus Line
-	950  1850 1050 1850
-Wire Bus Line
-	1150 2050 1150 1950
+	950  750  950  1850
 $EndSCHEMATC
